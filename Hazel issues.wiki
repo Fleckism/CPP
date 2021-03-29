@@ -1,3 +1,4 @@
 
 	* Add Sandbox as a >Add>Reference> Hazel
 	* You need to move the DLL file from Hazel and add it to the sandbox.  This could be done automatically or should be
+	* No one cares about Hazel anymore you fucking pikey!
