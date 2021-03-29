@@ -1,4 +1,10 @@
 
+= Steps to use git =
+	1. git add -A					:  Adds all files
+	2. git commit -m "Descrption"	:  Commits with a (m)essage
+	3. git push						:  Pushs to github
+	4. git status
+
 From the command line
 
 Dir
