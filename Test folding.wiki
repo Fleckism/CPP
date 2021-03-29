@@ -1,0 +1,12 @@
+zfa{ then bracket } creates the fold zd deletes za toggles
+{
+Lets test some folds!
+Do you
+Like fold?
+I like folds
+He likes fold
+She likes folds
+We like big folds 
+You like big folds
+We have the biggest folds of them all
+}

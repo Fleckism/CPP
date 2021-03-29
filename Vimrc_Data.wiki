@@ -1,0 +1,77 @@
+" Tryig to get syntax highlighting to work on vimwiki
+
+let wiki = {}
+let wiki.path = '~\vimwiki\'
+let wiki.nest_syntaxes = {'c++' : 'cpp'}
+let g:vimwiki_list = [wiki]
+
+" Show display bar 
+set laststatus =2
+
+" Show full path
+set statusline+=%F
+
+"Set home directory to vim_dir
+
+set noerrorbells
+set vb t_vb=
+" No sound 
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+syntax on					
+colorscheme elflord
+inoremap jj <Esc> 
+" Basic setting
+
+:set backspace=indent,eol,start
+" Allows backspaces
+
+set nu
+set nocompatible                              
+"==============Basics==================
+"== This is a shared rc for differnt operating
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h14
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif 
+"==============Font======================
+
+
+set pythonthreehome=C:\Python36-32\
+set pythonthreedll=C:\Python36-32\python36.dll
+
+"============= Python for plugin =========
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'vimwiki/vimwiki'
+
+
+call plug#end()
+
+
+"==== wiki setup not fully functional ===
+
+set nocompatible                       
+filetype plugin indent on		
+
+
+let mapleader = "\<SPACE>"
+
+"============ Prerequisites ==========
+inoremap { {}<Esc>i
+"============ Matching braces  ===========
+
+set cursorline
+
+" hightlight current line
+

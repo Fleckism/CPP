@@ -1,0 +1,77 @@
+= 10 Steps to solving a programming problem =
+[[selectEvenNumbers example]]
+Understand the * Problem * logic
+
+1. Read the problem at least three times(or until comfortable)
+2. Work through the problem manually with at least three sets of sample data.
+	* Corner case:  A problem or situation that occurs outside of normal operating parameters, when multiple 
+	  environmental variables or conditions are simultaneously at at extreme levels.  (Tolerance stack)
+	* Edge case:  Problem or situation that occurs only at an extreme operating paramter
+	* Dont gloss over the steps really pay attention if it is too hard to pay attention, try using a larger set 
+	  to go over or something more difficult instead of an exteremly simple version.
+	
+	== Steping throught the array ==
+	1. Look at the element in the array[1]
+	2. Decide if it is even or not.  It is not.
+	3. Look at the next element.  Notice that there are no more elements in this array.
+	4. Determine there are no even numbers in this provided array.
+	5. Return an empty array.
+
+	Lets go through the array [1,2]
+	1. Look at the first element in the array[1].
+	2. Decide it if is ever or not.  It is not.
+	3. Notice the next element in the array[2].
+	4. Decide if it is even or not. It is.
+	5. Add it to the selectEvenNumbers Array.
+	6. Look at the next element [x].  Notice that there are no more elements in this array.
+	7. Return selectEvenNumbers Array [2].
+
+	Lets go through the array [1,2,3,4,5,6]
+	1. Look at the first element in the array[1].
+	2. Decide if it is even.  It is not.
+	3. Notice the next element in the array[2].
+	4. Decide if it is even or it is not.  It is.
+	5. Add [2] to selectEvenNumbers array.
+	6. Notice the next element in the array[3].
+	7. Decide if it is even or it is not.  It is not.
+	8. Notice the next element in the array[4].
+	9. Decide if it is even or it is not.  It is.
+	10. Add [4] to selectEvenNumbers array[2,4]
+	11. Nocide the next element in the array[5].
+	12. Decide if it is even or it is not.  It is not.
+	13. Notice the next element in the array[6].
+	14. Decide if it is even or it is not.  It is.
+	15. Add [6] to selectEvenNumber array[2,4,6]
+	16. Return selectEvenNumber array]2,4,6]
+	
+	
+3. Simplify and optimize your steps.
+	* Look for patterns and anything you can generalize.
+	* See if you can reduce any steps or if you are repeating any steps.
+
+	1. Create a function selectEvenNumbers.
+	2. Create a new empty array evenNumbers... where even numbers are stored.
+	3. Go through each element in the array[1,2].
+	4. Find the first element.
+	5. Decide if it is even by seeing if it is divisible by 2.  If it is then add it to evenNumbers.
+	6. Find the next element.
+	7. Repeat step #4
+	8. Repeat steps #5 and #4 until there are no more elements in this array.
+	
+4. Write pseudocode, focus on logic and steps that you understand.
+5. Translate the pseudocode into code and debug.
+	* Use something like console.log() after variables or lines to check if values and code is behaving as expected
+	* Check values
+	* Remove sudo code and make good comments
+	
+6. Simplify and optimize yoyur code
+	* is there a function out there
+	* My goal at first is to make the code more readable.
+	* Are there any extra steps that can be removed.
+	* Are all the variables and functions being used.
+	* Are you repeating some steps.
+
+7. Debug:  This should be done all throughout the process.
+8. Write useful comments.
+   
+	  

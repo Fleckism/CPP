@@ -1,0 +1,42 @@
+**** cs_notes ****
+
+** terminology **
+
+3 building blocks of programming:  sequence, selection, iteration.
+
+Function:  Is a named sequence of statements.
+type identifier (parameter-list) {function body}
+
+** Thoughts **
+
+Solving problems:  How to represent data in memory?
+- Calendar, a year as a vector of 12 months.
+a month a vector of 30 days, days a vector of 24 hours.
+
+
+Understand what the function: Does, needs, and returns, what errors, and what performance constraints.
+
+
+Inheritance "is-a" relationship
+Composition "has-a" relationship? NO idea what that shit is?
+
+Difference between #include <bar> and #include "bar"
+  #include <bar> looks into system folders first.
+  #include "bar" looks into current or custom folders first.
+
+
+Expression:  A combination of numbers, symbols, or other variables that produce a result when evaluated.
+
+
+Variables are important in programming because they let you perform operations on data that may change
+
+
+Scripts smallest components:  variables, expressions and operations.
+
+Recursion and Iteration both repeatedly execute the set of instructions.  
+	Recursion is when a statement in a function calls itself repeatedly.
+
+	Iteration is when a loop repeatedly executes until the controlling condition becomes false.
+
+Algorithm:  A process or set of rules to be followed in calculation or other problem-solving operations.
+

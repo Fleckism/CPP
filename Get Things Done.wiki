@@ -1,0 +1,6 @@
+= Get Things Done = 
+
+* Add folds to vimwiki 
+* Windows CMD shortcuts
+
+

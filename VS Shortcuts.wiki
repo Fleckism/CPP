@@ -1,0 +1,2 @@
+= Visual Studio Shortcuts=
+* ctrl + tab : Switches tabs

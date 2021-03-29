@@ -1,0 +1,22 @@
+
+From the command line
+
+Dir
+c:\dev\Hazel>git clone https://github.com/blah/blah/blah the address
+
+* commits is how you access old pull requests(?)
+* He normally uses Added
+
+
+=== Set Sandbox as startup project ===
+
+
+
+= CMD =
+
+>git reset --hard paste commit hash
+
+
+dir		: gives list
+cd..	: goes back
+CLS		: clear

@@ -1,0 +1,62 @@
+= Game Engine Design 3D engine aka Requirements =
+[[Vim Shortcuts]] 
+Designing our game engine https://www.youtube.com/watch?v=etdSXlVjXss&t=587s starts at 8:00 left off at 15:30 
+video's 1 - 49
+	* [[Project Setup]]
+	* [[Entry point]]
+	* Logging
+	* Premake
+	* Planning the event system
+	* Event system
+	* Precompiled headers
+	* Window Abstraction and GLFW
+	* Window Events
+	* Layers
+	* Modern OpenGL
+	* ImGui
+		* ImGui Events
+	* GiHub / Pull requests
+	* Input polling
+	* Key and mouse codes
+	* Maths
+	* ImGui Docking and viewing
+	* Intro to rendering
+	* Rendering architecture
+	* Rendering maintenance
+	* Static Libraries and ZERO warnings
+	* Rendering Context
+	* First triangle
+	* OpenGL Shaders
+	* Renderer API Abstraction
+	* Vertex buffer layouts
+	* Vertex arrays
+	* Renderer flow and submission
+	* Camera's
+	* Moving to Sandbox
+	* TIMESTEPS and delta time
+	* Transforms
+	* Material systems
+	* Shader Abstration and uniforms
+	* Refs,Scopes and Smart pointers
+	* Textures
+	* Blending
+	* Shader Asset Files
+	* Shader Library
+	* Camera Controllers
+	* Resizing
+	* Maintenance
+	* 
+	* Application layer
+		* Window(Desktop), mobile and console(Surface)is the target
+			* Inputs and event managers
+			* 
+		* Renderer
+		* 
+		
+		
+	*
+	
+	
+	
+
+

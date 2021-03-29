@@ -1,0 +1,9 @@
+=selectEvenNumbers Example=
+
+  Questions
+  
+* How can a computer tell what is an even number?
+* What am I passing into this function?
+* What will that array contain?
+* What are the data types of the elements in the aray?
+* What is the goal of this function?  What am I returning at the end of this function?

@@ -1,0 +1,60 @@
+{{{cpp
+/*pg 97
+ * Binary Search recursive
+ * 
+ * *** research isdigit() function
+ * 
+ */
+
+#include <iostream>
+using namespace std;
+
+int binarySearch(int array[], int x, int low, int high) // recursive prototype
+{
+  if (high >= low) {
+    int mid = low + (high - low) / 2;
+
+    // If found at mid, then return it
+    if (array[mid] == x)
+      return mid;
+
+    // Search the left half
+    if (array[mid] > x)
+      return binarySearch(array, x, low, mid - 1);
+
+    // Search the right half
+    return binarySearch(array, x, mid + 1, high);
+  }
+
+  return -1;
+}
+
+int main(void) {
+  int array[] = {1,4,5,6,9,14,21,23,28,31,35,42,46,50,53,57,62,63,65,74,79,89,95}; // [array]
+  int x = 0;
+  
+  
+  
+  
+  while (isdigit(x) == false)
+  {
+  
+  cout << "Enter search key (or 'x' to exit): ";
+  cin >> x;
+      
+  int n = sizeof(array) / sizeof(array[0]);
+  int result = binarySearch(array, x, 0, n - 1);
+  if (result == -1)
+  {
+    printf("Not found \n"); // research this method? instead of cout <<
+    break;
+  }
+  else
+      
+  
+    printf("Element is found at index %d \n", result);
+    
+    
+  }
+  
+}

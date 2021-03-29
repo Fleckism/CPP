@@ -1,0 +1,49 @@
+
+ === Movement ===
+	gg: moves to top of page
+	$:	Moves to end of line
+	0:	Moves to beginning of line
+	e:	Moves to end of word
+	w:	Moves forward a word to the beginning of a word
+	9G:	Jumps to line 9.
+	
+https://vim.fandom.com/wiki/Moving_around
+
+== Commands ==
+:sp  Splits the window horizontally
+:vsp Splits the window vertically
+:E opens file explorer
+:sp "file name" opens file name after spitting
+:e $MYVIMRC	opens vimrc
+:source % reloads v file.
+
+wr rewrites file name
+
+=== Shortcuts ===
+Ctrl + ws - split window
+Ctrl + wv - split window vertically 
+ctrl + w moves between views
+
+
+== My vimrc copy ==
+[[Vimrc_Data]]
+
+== Formatting ==
+
+=== Folding===
+	* zfa{	Will fold current code block where { is bracket type
+	* zd	Will delete current fold
+	* za	Will toggle open/close a fold
+
+[[Test folding]]
+
+== General Notes ==
+* Leader is something you press 
+•	:version on vim
+•	:VimwikiIndex
+•	:help vimwiki
+•	: echo $HOME
+•	:echo mapleader
+•	:cd C:\Users\Jamie\Desktop\vim_dir
+* ~ means home path
+* so $MYVIMRC reloads vimrc

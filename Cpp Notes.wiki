@@ -1,0 +1,76 @@
+Solving problems
+•	Make sure you understand the question before you begin trying to solve it!  Algorithms are not functions!
+
+•	READ THE ENTIRE EMAIL FROM  STEVE JONES
+•	UNDERSTAND ALL THE CODE DON’T SKIP CODE
+o	SLOW IS FAST, FAST IS SMOOTH
+•	How to represent data in memory!
+•	During other sections of this course once a week go back and resolve previous issues, then start making functions.
+•	Blasted through Chapter 10
+Terms
+•	Declaring: data_type and variable_name; for the first time this is a new name. this informs compiler the size to reserve for the variable in memory.
+•	Initialization, Assigned: assigning a value to a variable.
+•	Defining:  Is when something is declared and initialized at the same time.  OR JUST ANOTHER NAME FOR INITIALIZATION
+•	Function signature is function name and parameter list
+•	False == 0, True == 1 or any non zero number.
+•	Invoke means to activate
+•	Expression:  A combination of numbers, symbols, or other variables that produce a result when evaluated.
+•	Variables declared in a code unit are destroyed after the program exits the code block?
+•	Scripts smallest component?:  Made up of variables, expressions and operations.
+•	ofstream write (save) data  	#include <fstream>
+•	ifstream read (load) data	#include<fstream>
+•	[] access individual char from a string
+•	Linker errors are due to missing definitions found in .obj files.
+•	Constructor:
+•	Chapter 10 templates had no test kinda confusing so I’m skipping it
+•	overload means to redefine.
+•	Write out variables to scripts, all the individual parts
+•	0x denotes hexadecimal
+•	functions return or evaluate.
+•	Function:  Is a named sequence of statements
+•	Linker errors are due to missing definitions found in .obj files.
+•	functions should only do one task
+•	Algorithm:  A process or set of rules to be followed in calculations or other problem solving operations.
+•	pointer(dereference) *
+•	reference &
+•	functions improve organizations
+•	hpp for cpp headers and .h for c headers
+•	functions (parameters)
+•	::
+•	class name::member name of class  Month::Jan
+•	templates deinition and implementation are in the same file
+•	overloading is when you call or use the same thing within the same code block?
+•	Make sure to add parameters to correct function constructor… Remember ios_base::binary
+•	read data >> write data <<
+•	Reread and totally understand why we break the Project into so many different parts
+o	How to add power to number? pow(x,y) x to the yth power.
+Note: Observe the new keyword protected, which we have used in place of private. Recall that
+only the class itself and friends can access data members in the private area. This would prevent
+a derived class from accessing the data members. We do not want such a restriction with a class that is
+designed for the purposes of inheritance and the derivation of child classes. After all, what good is
+inheriting properties and methods you cannot access?. In order to achieve the same effect as
+private, but allow derived classes to access the data members, C++ provides the protected
+•	keyword. The result is that derived classes get access to such members, but outsiders are still restricted.
+•	: public Spaceship is colon syntax
+
+General Info
+•	#Hash sign is indicative of a preprocessor directive
+•	#include <name> looks in system folder first.
+•	#include “name” looks into current folder or custom folder first.
+•	Recursion is when a statement calls itself.
+•	Text files contain data readable by humans.
+•	Binary files contain data readable by computers strictly numeric.
+•	Iteration is when a loop repeatedly executes until the controlling condition becomes false
+•	User-defined type.  Type means data type, aka variable types
+•	A shallow copy copies from source to dest dest.mData = source.mData
+•	variables declared with const cannot be changed.
+•	Definition in header
+•	Implementation in source file
+•	** is a pointer to a pointer
+•	
+Not understood or needed yet.
+•	What are -> symbols
+•	Steve Jones gave correct file for 792_Float_Array_Class diff it with the previous version saved in github
+•	Inheritance “is-a” relationship.
+•	Composition “has-a” relationship.
+

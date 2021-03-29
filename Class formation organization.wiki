@@ -1,0 +1,10 @@
+
+= main.cpp =
+	* Must include class.h file.
+
+= class.cpp aka source file =
+	* Includes class.h file.
+	* Constructors are placed in class source file
+ 
+ = Class.h =
+	* Class definition is here

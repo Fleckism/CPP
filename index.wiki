@@ -1,0 +1,102 @@
+= Index =  = Index = Index = Index = Index = Index =
+[[Get Things Done]]
+[[10 Steps to solving a programming problem]]
+[[Video Game Design and structure]]
+= CPP Game Engine = 
+[[Hazel issues]]
+
+* After resetting git setup Sandbox as startup project
+* 
+[[Design]]
+= CPP reference =  
+[[Cpp Notes]]
+[[CheatSheet.cpp| Cheat Sheet Master copy ]]
+[[Preprocessor.cpp| Prepocessor #]]
+[[Literals.cpp|Literal: a notation that directly specifies a value]]
+[[Declarations.cpp|Declaration the specification of a name with its type in a program]]
+[[Storage Classes.cpp|Storage Class, an advanced topic?]]
+[[Statements.cpp|Statements are a basic unit of a program controlling the execution flow in a function.]]
+[[Functions.cpp|Function: a named unit of code that can be invoked(called) from different parts of a program; a logical unit of computation]]
+[[Expressions]] Break this up file is too large for single view
+^^^^^^^^^^^
+|||||||||||  Lots of good info in there
+[[Classes]] Break this up   [[Class formation organization]]
+[[[[Templates]]]]
+
+== My Assignements ==
+
+[[Array.cpp]]
+[[AverageArray.cpp]]
+[[ControlStructure.cpp]]
+[[Basics.cpp]]
+[[cs_notes]]
+[[dynamicMemory.cpp]]
+[[DiceGame.cpp]]
+[[SlotMachine.cpp]]
+[[BinarySearch]]
+
+== Different Namespaces Libraries ==
+[[<memory>]] 
+[[<cmath>]]
+[[<cassert>]]
+[[<iostream>]]
+[[<fstream>]]
+[[<string>]]
+[[<vector>]]
+[[<deque>]]
+[[<utility>]]
+[[<map>]]
+[[<unorded_map>]]
+[[<set>]]
+[[<unordered_set>]]
+[[<algorithm>]]
+[[<chrono>]]
+[[<thread>]]
+[[<future>]]
+
+== Shortcuts ==
+[[Vim Shortcuts]] 
+[[VS Shortcuts]]
+[[Youtube Shortcuts]]
+=== Git ===
+[[Git]]
+[[cmd]]
+
+=== Setups ===
+
+== How to learn == 
+[[How to learn]] 
+
+== Vim Wiki Info ==
+[[vimWikiNotes|Basic Markup]]  -- wiki link with description, link leads to basic wiki markup
+
+= Template =
+=== Header 3 === 
+- Must add a space after the bullet list!
+- bullet list
+- bullet list 2
+	* bullet list
+	* bullet list 2
+1. Numbered list
+2. Numbered list 2
+
+a) Lettered list
+b) Lettered list 2
+
+```` Accent mark or backtick shares key with tilde  ````
+`[[link to file name| Description aka what is displayed]]`
+`[[link to file name is displayed]]`
+
+<Shift -Enter> Split and follow/create wiki link
+<Ctrl-Enter> Vertical split follow and create wiki link
+<Backspace>  Go back to parent(previous) wiki link
+<Tab>  Find next wikilink.
+<Shift-Tab> Find previous wikilink
+
+``*bold*``
+``_italic_``
+
+[[cmd]]
+[[wifi]]
+[[Test Changed]]
+[[How to ask questions]]

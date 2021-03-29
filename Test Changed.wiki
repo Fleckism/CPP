@@ -1,0 +1,26 @@
+zfa[  [ equals any type of bracket
+zc closes zo opens za toggls
+Lets see if I remember how to do folds!
+{ Test what? Fold
+Foldy 
+a
+a
+sdfdf
+d
+fd
+fidf
+df
+d
+s
+d
+fd
+f
+}
+ 
+ [ How to safe folds?
+ 
+ 
+ 
+ 
+ 
+ ]

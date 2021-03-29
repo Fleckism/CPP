@@ -1,0 +1,8 @@
+= Night Hawk Router =
+	* R6700v3
+	* 192.168.1.1
+	* Wifi Default password "network key"  phobicsky437
+	* Fantastic-5g, Fantastic @2018
+	1. I have an IPV6 Address
+	2. 
+	

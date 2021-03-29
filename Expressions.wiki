@@ -1,0 +1,67 @@
+{{{cpp
+#include <iostream>
+// Operators are grouped by precedence, highest first. Unary operators and assignment evaluate right to left. All
+// others are left to right. Precedence does not affect order of evaluation, which is undefined. There are no run time
+// checks for arrays out of bounds, invalid pointers, etc.
+
+T::X                        // Name X defined in class T
+N::X                        // Name X defined in namespace N
+::X                         // Global name X
+t.x                         // Member x of struct or class t
+p-> x                       // Member x of struct or class pointed to by p
+
+
+a[i]                        // i'th element of array a
+f(x,y)                      // Call to function f with arguments x and y
+T(x,y)                      // Object of class T initialized with x and y
+x++                         // Add 1 to x, evaluates to original x (postfix)
+x--                         // Subtract 1 from x, evaluates to original x
+typeid(x)                   // Type of x
+typeid(T)                   // Equals typeid(x) if x is a T
+dynamic_cast< T>(x)         // Converts x to a T, checked at run time.
+static_cast< T>(x)          // Converts x to a T, not checked
+reinterpret_cast< T>(x)     // Interpret bits of x as a T
+const_cast< T>(x)           // Converts x to same type T but not const
+
+sizeof x                    // Number of bytes used to represent object x
+sizeof(T)                   // Number of bytes to represent type T
+++x                         // Add 1 to x, evaluates to new value (prefix)
+--x                         // Subtract 1 from x, evaluates to new value
+~x                          // Bitwise complement of x
+!x                          // true if x is 0, else false (1 or 0 in C)
+-x                          // Unary minus
++x                          // Unary plus (default)
+&x                          // Address of x
+*p                          // Contents of address p (*&x equals x)
+new T                       // Address of newly allocated T object
+new T(x, y)                 // Address of a T initialized with x, y
+new T[x]                    // Address of allocated n-element array of T
+delete p                    // Destroy and free object at address p
+delete[] p                  // Destroy and free array of objects at p
+(T) x                       // Convert x to T (obsolete, use .._cast<T>(x))
+
+x * y                       // Multiply
+x / y                       // Divide (integers round toward 0)
+x % y                       // Modulo (result has sign of x)
+
+x + y                       // Add, or \&x[y]
+x - y                       // Subtract, or number of elements from *x to *y
+x << y                      // x shifted y bits to left (x * pow(2, y))
+x >> y                      // x shifted y bits to right (x / pow(2, y))
+
+x < y                       // Less than
+x <= y                      // Less than or equal to
+x > y                       // Greater than
+x >= y                      // Greater than or equal to
+
+x & y                       // Bitwise and (3 & 6 is 2)
+x ^ y                       // Bitwise exclusive or (3 ^ 6 is 5)
+x | y                       // Bitwise or (3 | 6 is 7)
+x && y                      // x and then y (evaluates y only if x (not 0))
+x || y                      // x or else y (evaluates y only if x is false (0))
+x = y                       // Assign y to x, returns new value of x
+x += y                      // x = x + y, also -= *= /= <<= >>= &= |= ^=
+x ? y : z                   // y if x is true (nonzero), else z
+throw x                     // Throw exception, aborts if not caught
+x , y                       // evaluates x and y, returns y (seldom used)
+}}}

@@ -1,0 +1,8 @@
+
+=Project Setup=
+
+	* All static libraries are linked into a dynamic game exe. file.
+	* 
+	* 	
+	
+	
