@@ -3,7 +3,6 @@
 [[10 Steps to solving a programming problem]]
 [[Video Game Design and structure]]
 = CPP Game Engine = 
-[[Hazel issues]]
 
 * After resetting git setup Sandbox as startup project
 * 
