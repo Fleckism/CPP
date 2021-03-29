@@ -20,3 +20,6 @@ c:\dev\Hazel>git clone https://github.com/blah/blah/blah the address
 dir		: gives list
 cd..	: goes back
 CLS		: clear
+get init: creates empty Git repository.
+git add -A :  Stages all files in repository
+
