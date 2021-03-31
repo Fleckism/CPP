@@ -1,0 +1,19 @@
+= Data Types=
+	* What are the best types to use to store my data
+	* enum's, array's, vectors, bool, char, floats, remember you can always rename a type
+	* Use the smallest type needed
+	* shorts are converted to int if artimatic is done on it.  Which increases cpu cycles.  Don't use short if there is math
+	* 
+
+= Flow Control =
+	* Figure out when to use an if else, and when to use a switch
+	* Switch statements can only be used with int's char's or enumerators
+	* Use the break word "continue" or "jump" if you want to skip something in a loop like the number 5 out of printing 1 to 10
+	* 
+
+
+
+= Examples from Da Book =
+[[menu.cpp]]
+[[again.cpp|game loop]]
+[[random.cpp| random number generator]]

@@ -1,14 +1,18 @@
 = Index =  = Index = Index = Index = Index = Index =
 [[Get Things Done]]
 [[10 Steps to solving a programming problem]]
-[[Video Game Design and structure]]
+
+[[Video Game Design and structure|This is the new books working notes]]
+
 = CPP Game Engine = 
 
 * After resetting git setup Sandbox as startup project
 * 
 [[Design]]
 = CPP reference =  
+[[Game Programming Notes]]
 [[Cpp Notes]]
+[[Variable.cpp|variable with[[ ]]size]]
 [[CheatSheet.cpp| Cheat Sheet Master copy ]]
 [[Preprocessor.cpp| Prepocessor #]]
 [[Literals.cpp|Literal: a notation that directly specifies a value]]

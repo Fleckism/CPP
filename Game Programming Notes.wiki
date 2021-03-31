@@ -1,0 +1,17 @@
+= Variable =
+	* Us smallest variable type as needed:  
+	* Short int: Whole numbers not fractions from -32k to 32k. 
+	* Unsigned short: Whole numbers not fractions up to 65k
+	* Float: A number with a decimal point up to seven significant digits
+	* Bool:  Yes or No,
+	* typedef allows you to rename a type.
+	* If you don't want to change it make it a constant Constants start with Capital letters!
+	* Enum if you only have a few options and you can only use one at a time:
+		* Enums start at 0 
+		  
+	* Literals represent explicit value."strings" or numeric!
+
+= General =
+
+	* Logical operators have precedence!  Maybe this is why you get shit wrong sometimes...
+	* 
