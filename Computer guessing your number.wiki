@@ -1,0 +1,78 @@
+{{{cpp
+// Have the computer guess your random number
+// Compare elements in guessArray 
+
+#include <iostream>
+#include <cstdlib> // random numbers
+#include <ctime> //
+
+using std::cout;
+using std::cin;
+using std::getchar;
+using std::endl;
+
+
+
+int main()
+{
+	// 1. Ask the player to pick a number and tell someone.
+	cout << "Please pick a random number and remember it then press enter!\n\n";
+	getchar();
+
+
+
+	// 2. Have the computer guess a random number guessN
+	srand(static_cast<unsigned int>(time(0)));// randomseed
+	int randomNumber = rand();
+	int currentGuess = (randomNumber % 100) +1;
+
+	int guessArray[25];
+	int i = 0;
+	guessArray[i] = currentGuess;
+	///////////////////////////////
+	//cout << currentGuess;
+	//cout << guessArray[0];
+
+
+	cout << "Is " << currentGuess << " your number?\n";
+	cout << "If yes type in y, if it is smaller s, if it is larger l\n";
+
+	char loopControl = 'E';
+	cin >> loopControl;
+
+	while (cin)
+	{
+
+	if (loopControl == 'y')
+	{
+		cout << "We guessed right the ______ Your number is " << currentGuess << endl;
+		return 0;
+	}
+
+	if (loopControl == 's')
+	{
+		i++;
+		guessArray[i] = currentGuess / 2;
+		currentGuess = guessArray[i];
+		cout << "Is " << currentGuess << " your number? \n";
+		cin >> loopControl;
+		cout << "\n" << endl;
+
+	}
+
+	else if (loopControl == 'l')
+	{
+		i++;
+		guessArray[i] = currentGuess * 2;
+		currentGuess = guessArray[i];
+		cout << "Is " << currentGuess << " your number? \n";
+		cin >> loopControl;
+		cout << "\n" << endl;
+	}
+	else
+		cout << "Please input a valid entry" << endl;
+	}
+
+	return 0;
+}
+

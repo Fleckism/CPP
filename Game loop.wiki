@@ -1,0 +1,8 @@
+= Game Loop =
+
+1. Setup ->
+2. Get player input ->
+3. Update game internals ->
+4. Update display ->
+5. Game over? 2 <-->
+6. Shutdown  

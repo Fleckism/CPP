@@ -1,0 +1,39 @@
+= Switch = 
+	* Is a selection statement
+	* A switch is based on comparison value against several constants
+	* Generates optimized code for comparing against a set of constraints.
+	* Cannot switch a string
+
+{{{cpp
+#include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
+
+int main()
+{
+	enum level{Easy=1,Medium,Hard};
+	int i;
+	
+	cout << "\nPlease select a level:" << endl;
+	cout << "\nEasy = 1\nMedium = 2 \nHard = 3\n\n";
+	cin >> i;
+
+	switch (i)
+	{
+	case Easy:
+		cout << "\nYou picked Easy" << endl;
+		break;
+	case Medium:
+		cout << "\nYou picked Medium" << endl;
+		break;
+	case Hard:
+		cout << "\nYou picked Hard" << endl;
+		break;
+	default:
+		cout << "\nYou didn't pick anything?" << endl;
+	}
+	return 0;
+}	
+}}}
+

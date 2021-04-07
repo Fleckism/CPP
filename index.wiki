@@ -1,7 +1,7 @@
 = Index =  = Index = Index = Index = Index = Index =
-[[Get Things Done]]
 [[10 Steps to solving a programming problem]]
 
+== Video Game coding notes ==
 [[Video Game Design and structure|This is the new books working notes]]
 
 = CPP Game Engine = 
@@ -10,9 +10,12 @@
 * 
 [[Design]]
 = CPP reference =  
+
+[[Personal Encyclopedia]]
+
 [[Game Programming Notes]]
 [[Cpp Notes]]
-[[Variable.cpp|variable with[[ ]]size]]
+[[Variable.cpp]]
 [[CheatSheet.cpp| Cheat Sheet Master copy ]]
 [[Preprocessor.cpp| Prepocessor #]]
 [[Literals.cpp|Literal: a notation that directly specifies a value]]
@@ -95,6 +98,9 @@ b) Lettered list 2
 <Backspace>  Go back to parent(previous) wiki link
 <Tab>  Find next wikilink.
 <Shift-Tab> Find previous wikilink
+
+<Leader>wd	: Deletes the wiki you are in
+<Leader>wr	: Renames the file you are in
 
 ``*bold*``
 ``_italic_``

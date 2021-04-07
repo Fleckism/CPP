@@ -2,6 +2,23 @@
 [[selectEvenNumbers example]]
 Understand the * Problem * logic
 
+	1. Read the problem at least three times(or until comfortable)
+	2. Work through the problem manually with at least three sets of sample data.
+	3. Simplify and optimize your steps.
+	4. Write pseudocode, focus on logic and steps that you understand.
+	5. Translate the pseudocode into code and debug.
+	6. Simplify and optimize yoyur code
+	7. Debug:  This should be done all throughout the process.
+	8. Write useful comments.
+
+
+
+
+
+
+
+
+
 1. Read the problem at least three times(or until comfortable)
 2. Work through the problem manually with at least three sets of sample data.
 	* Corner case:  A problem or situation that occurs outside of normal operating parameters, when multiple 

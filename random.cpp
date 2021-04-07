@@ -19,4 +19,4 @@ int main()
 	cout << " You rolled a " << die << endl;
 
 return 0;
-
+}

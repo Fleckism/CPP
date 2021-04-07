@@ -1,0 +1,9 @@
+= Array=
+	* Syntax
+	* Why use one over the other
+	* 
+
+	
+	
+{{{cpp // type array[values], can be multidimensional type array[values][values]
+	int array[8];

@@ -1,3 +1,13 @@
+PUT THE SHIT BELOW IN ITS OWN WIKI
+
+[[Game loop]]
+[[10 Steps to solving a programming problem]]
+[[How to build a programming project]]
+[[Scratch Pad]]
+{{{cpp
+variableName.memberFunction()
+phrase.size()
+
 = Data Types=
 	* What are the best types to use to store my data
 	* enum's, array's, vectors, bool, char, floats, remember you can always rename a type
@@ -10,10 +20,15 @@
 	* Switch statements can only be used with int's char's or enumerators
 	* Use the break word "continue" or "jump" if you want to skip something in a loop like the number 5 out of printing 1 to 10
 	* 
-
-
+}}}
+== Figure out how to save game as an exe file. ==
 
 = Examples from Da Book =
 [[menu.cpp]]
 [[again.cpp|game loop]]
 [[random.cpp| random number generator]]
+[[Level selection using enums and a switch statement]]
+[[Computer guessing your number]]
+[[Hero's Inventory]]
+[[Word Jumble]]
+[[Hero's Invetory 2.0 vectors]]

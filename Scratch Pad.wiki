@@ -1,0 +1,12 @@
+= Computer picks your number =
+
+= How to build a programming project =
+
+	1) Break everything up into sections
+	2) Break sections down into components
+	 * Start writing code
+	 * No project is perfect
+	 * Every project is build on other projects
+	 * Google
+		*	Exclude a search with (-)
+
