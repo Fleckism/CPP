@@ -1,0 +1,21 @@
+= Planning your programs =
+
+	* Use pseudocode
+	* Use stepwise refinement
+
+== Setting up the program ==
+
+	1. Start with comments and #include files
+		* Research any stl that will make life easier
+	2. Initialize variables and constants
+		* What type of containers will I need which ones will be constant which one changable
+	
+	3. Enter the main game  loop
+		* Usually a while statemnt which continues until the player dies or exits
+
+	4. Get players input
+		* Game reacts to players decisions
+		* Rewards for correct decisions
+		* Penalities for incorrect choices
+
+	5. End game

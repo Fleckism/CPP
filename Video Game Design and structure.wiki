@@ -4,7 +4,8 @@ PUT THE SHIT BELOW IN ITS OWN WIKI
 [[10 Steps to solving a programming problem]]
 [[How to build a programming project]]
 [[Scratch Pad]]
-{{{cpp
+[[Planning your programs]]
+{{{cpp}}}
 variableName.memberFunction()
 phrase.size()
 
@@ -21,14 +22,33 @@ phrase.size()
 	* Use the break word "continue" or "jump" if you want to skip something in a loop like the number 5 out of printing 1 to 10
 	* 
 }}}
+
+= Good Things =
+	* while(true) loops are good for the main game loop
+	* for (initialization;test;action){statement};
+	* [] is the subscripting operator
+	* Make puzzles easy to make an profitable!
+	* Use iterators instead of subscripting opertor need to use them with the stl 
+	* You don't need to use parameter names in function prototypes just the type 
+	* Try to use good general names for your functions so they can be reused withou needing to change names.  IF a function always gets passed the same value make it a default argument
+	* You can hide global values  global variables bad, global constants good
+
 == Figure out how to save game as an exe file. ==
 
 = Examples from Da Book =
+[[Logging in using logical operators]]
 [[menu.cpp]]
 [[again.cpp|game loop]]
 [[random.cpp| random number generator]]
 [[Level selection using enums and a switch statement]]
 [[Computer guessing your number]]
-[[Hero's Inventory]]
+[[Hero's Inventory Demonstrate arrays]]
 [[Word Jumble]]
 [[Hero's Invetory 2.0 vectors]]
+[[Hero's Invetory 3.0 iterators]]
+[[High Scores Algorithms]]
+[[Instructions demonstrates writing new functions]]
+[[ Yes or No demonstrates return values and parameters]]
+[[Give me a number demonstrates default function arguments]]
+[[Triple demonstrates function overloading]]
+[[Take damage demonstrate function inlining]]

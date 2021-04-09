@@ -1,0 +1,53 @@
+{{{cpp
+// Yes or No
+// Demonstrates return value and parameters
+
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::string;
+
+char askYesNo1();
+char askYesNo2(string question);
+
+int main()
+{
+	// askYesNo1(); returns response1 which is assigned to answer 1
+	char answer1 = askYesNo1(); 
+	cout << "Thanks for answering:" << answer1 << "\n\n";
+	// "Do you wish is the string Question from the prototype 
+	// answer2 is assigned the return value of askYesNo2!
+	char answer2 = askYesNo2("Do you wish to save your game?");
+	cout << "Thanks for answering:" << answer2 << "\n";
+
+	return 0;
+}
+
+char askYesNo1()
+{
+	char response1;
+	do
+	{
+		cout << "Please enter 'y' or 'n': ";
+		cin >> response1;
+	} while (response1 != 'y' && response1 != 'n');
+	return response1;
+}
+
+// it names the parameter that it accepted as question
+// askYesNo2() accepts "
+// variables inside of functions do not exists outside of functions that is why
+//-- you need return types so data can be passed out of functions.
+char askYesNo2(string question)
+{
+	char response2;
+	do
+	{
+		cout << question << "(y/n): ";
+		cin >> response2;
+	} while (response2 != 'y' && response2 != 'n');
+
+	return response2;
+}

@@ -9,4 +9,6 @@
 	 * Every project is build on other projects
 	 * Google
 		*	Exclude a search with (-)
-
+= Dumping =
+	* Predicate functions: return true or false
+	* 

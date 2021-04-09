@@ -34,7 +34,7 @@ int main()
 
 	cout << "\nThe item name '" << inventory[0] << "'has ";
 	cout << inventory[0].size() << " letters in it.\n";
-
+	// always have bounds checking
 	cout << "\nYou find a healing potion.";
 	if (numItems < MAX_ITEMS)
 	{

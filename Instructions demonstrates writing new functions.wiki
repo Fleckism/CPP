@@ -1,0 +1,26 @@
+{{{cpp
+// Instructions
+// Demonstrates writing new functions
+
+#include <iostream>
+using std::cout;
+
+// function prototype (declaration) you don't need to use parameter names just types in prototype.
+// return type "void", followed by the name "instructions" (parameters) receive values sent as arguements
+// void returns no value   () takes no values
+// ends with semicolon
+void instructions();
+
+int main()
+{
+	// function call
+	instructions();
+	return 0;
+}
+
+// function definition writing all the code that makes the function work
+void instructions()  // this is the function header, below is the function body
+{
+	cout << "Welcome to the most fun you've ever had with text!\n\n";
+	cout << "Here's how to play the game...\n";
+}

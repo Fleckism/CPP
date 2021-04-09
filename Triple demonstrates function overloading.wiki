@@ -1,0 +1,31 @@
+{{{cpp
+// Triple
+// Demonstrate function overloading
+
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::string;
+// Function declarations
+// same function that accept different arguements (parameter) types
+int triple(int number);
+string triple(string text); // string object, why?
+
+int main()
+{
+	cout << "Tripling 5: " << triple(5) << "\n\n";
+	cout << "Tripling 'gamer': " << triple("gamer");
+	return 0;
+}
+
+int triple(int number)
+{
+	return(number * 3);
+}
+
+string triple(string text)
+{
+	return(text + text + text);
+}

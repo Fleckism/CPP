@@ -1,0 +1,38 @@
+{{{cpp
+// Give me a number
+// Demonstrate default function arguments
+
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::string;
+using std::endl;
+// Function definition
+// arguments after a default must also be default.
+int askNumber(int high, int low = 1);
+
+int main()
+{
+	// 5 is assigned to high, and it uses the default value
+	int number = askNumber(5);
+	cout << "Thanks for entering: " << number << "\n\n";
+	// 10 is assigned to high, and 5 overrides the default low of 1
+	number = askNumber(10, 5);
+	cout << "Thanks for entering: " << number << "\n\n";
+
+	return 0;
+}
+
+int askNumber(int high, int low)
+{
+	int num;
+	do
+	{
+		cout << "Please enter a number" << "(" << low << "-" << high << ")";
+		cin >> num;
+	} while (num > high || num < low);
+	
+	return num;
+}

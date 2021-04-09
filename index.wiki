@@ -1,14 +1,18 @@
 = Index =  = Index = Index = Index = Index = Index =
 [[10 Steps to solving a programming problem]]
 
+= Brain Dump =
+
+	* Study hangman - you get to add words to the dictionary with a definition and the hints are your definitions
+	* ADD ALL DUMPS TO THIS DUMP....
+
 == Video Game coding notes ==
 [[Video Game Design and structure|This is the new books working notes]]
 
-= CPP Game Engine = 
+== Things not fully understood ==
+	* enumerations
+	* iterators
 
-* After resetting git setup Sandbox as startup project
-* 
-[[Design]]
 = CPP reference =  
 
 [[Personal Encyclopedia]]
