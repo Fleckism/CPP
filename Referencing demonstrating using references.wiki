@@ -1,0 +1,32 @@
+{{{cpp
+// Referencing 
+// Demonstrates using references
+// Prefix references with "r"
+#include <iostream>
+using std::cin;
+using std::cout;
+
+int main()
+{
+	// created variable to hold my score
+	int myScore = 1000;
+	// created reference to myScore name r_mikesScore
+	// type& reference name = the variable to which is referenced
+	// reference must always refer to another value you must 
+	// You cannot reassign references r_mikesScore will always = myScore
+	int& r_mikesScore = myScore; 
+
+	cout << "myScore is: " << myScore << "\n";
+	cout << "r_mikesScore is: " << r_mikesScore << "\n\n";
+
+	cout << "Adding 500 to myScore\n";
+	myScore += 500;
+	cout << "myScore is: " << myScore << "\n";
+
+	cout << "r_mikesScore is: " << r_mikesScore << "\n\n";
+
+	cout << "Adding 500 to r_mikesScore \n";
+	cout << "myScore is: " << r_mikesScore << "\n\n";
+
+	return 0;
+}

@@ -5,10 +5,10 @@ PUT THE SHIT BELOW IN ITS OWN WIKI
 [[How to build a programming project]]
 [[Scratch Pad]]
 [[Planning your programs]]
-{{{cpp}}}
+{{{cpp
 variableName.memberFunction()
 phrase.size()
-
+}}}
 = Data Types=
 	* What are the best types to use to store my data
 	* enum's, array's, vectors, bool, char, floats, remember you can always rename a type
@@ -21,7 +21,9 @@ phrase.size()
 	* Switch statements can only be used with int's char's or enumerators
 	* Use the break word "continue" or "jump" if you want to skip something in a loop like the number 5 out of printing 1 to 10
 	* 
-}}}
+= Header Files =
+	* Function declaration are written in header files
+	* Function definitions are written in there own .cpp files
 
 = Good Things =
 	* while(true) loops are good for the main game loop
@@ -32,6 +34,9 @@ phrase.size()
 	* You don't need to use parameter names in function prototypes just the type 
 	* Try to use good general names for your functions so they can be reused withou needing to change names.  IF a function always gets passed the same value make it a default argument
 	* You can hide global values  global variables bad, global constants good
+	* An argument is what you use in a function call to pass a value to a function. A parameter is what you use in a function definition to accept values passed to a function.
+	* Avoid changing an argument variable.  Use the return value.
+
 
 == Figure out how to save game as an exe file. ==
 
@@ -52,3 +57,8 @@ phrase.size()
 [[Give me a number demonstrates default function arguments]]
 [[Triple demonstrates function overloading]]
 [[Take damage demonstrate function inlining]]
+[[Mad-Lib Create a story based on user input]]
+[[Referencing demonstrating using references]]
+[[Swap Demonstrating passing by reference to alter argument variables]]
+[[Inventory Display demonstrating constant reference]]
+[[Iventory Reference demonstrates returturning a reference]]
