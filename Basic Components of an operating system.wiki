@@ -1,0 +1,6 @@
+= OS includes =
+	* Display server
+	* Desktop environment
+	* Windows manager
+	* Login manager
+

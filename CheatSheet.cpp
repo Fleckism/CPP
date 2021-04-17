@@ -57,6 +57,8 @@ int a, b, c;                // Multiple declarations
 int a[10];                  // Array of 10 ints (a[0] through a[9])
 int a[]={0,1,2};            // Initialized array (or a[3]={0,1,2}; )
 int a[2][2]={{1,2},{4,5}};  // Array of array of ints
+vector <int> myVector;
+vector <int> myVector (size,value);
 char s[]="hello";           // String (6 elements including '\0')
 std::string s = "Hello"     // Creates string object with value "Hello"
 std::string s = R"(Hello

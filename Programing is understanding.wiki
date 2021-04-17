@@ -1,0 +1,6 @@
+
+1. Analysis:     What is the problem?
+2. Design:		 How to solve the problem, sudo code.
+3. Programming:  Expressing in code.
+4. Testing
+5. What Object does the program attempt to model

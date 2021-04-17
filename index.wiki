@@ -1,10 +1,24 @@
 = Index =  = Index = Index = Index = Index = Index =
+
+o	SLOW IS FAST, FAST IS SMOOTH
+= Program design and implimentation =
+
 [[10 Steps to solving a programming problem]]
+[[Programing is understanding]]
 
 = Brain Dump =
 
 	* Study hangman - you get to add words to the dictionary with a definition and the hints are your definitions
 	* ADD ALL DUMPS TO THIS DUMP....
+	* Changre intelisens to only show things from document
+	* 1st digit hundreths compiled and run
+	* 2nd digit tens trying to compile
+	* 3rd digit ones not ready to compile
+	* PH: Physical health
+	* PS: Physical strength
+	* EE: Emotional Energy
+	* ME: Mental Enrgery focus
+	* SE: Spirtual Energy Why am I doing this?
 
 == Video Game coding notes ==
 [[Video Game Design and structure|This is the new books working notes]]
@@ -17,7 +31,6 @@
 
 [[Personal Encyclopedia]]
 
-[[Game Programming Notes]]
 [[Cpp Notes]]
 [[Variable.cpp]]
 [[CheatSheet.cpp| Cheat Sheet Master copy ]]
@@ -64,13 +77,10 @@
 [[<thread>]]
 [[<future>]]
 
-== Shortcuts ==
-[[Vim Shortcuts]] 
-[[VS Shortcuts]]
-[[Youtube Shortcuts]]
-=== Git ===
-[[Git]]
-[[cmd]]
+= General CS =
+[[Basic Components of an operating system]]
+[[Binary and Hex]]
+[[CS Dump]]
 
 === Setups ===
 
@@ -109,7 +119,16 @@ b) Lettered list 2
 ``*bold*``
 ``_italic_``
 
-[[cmd]]
+[[Limitless]]
+
+
 [[wifi]]
-[[Test Changed]]
 [[How to ask questions]]
+
+== Shortcuts & Commands ==
+[[VS Shortcuts]]
+[[Youtube Shortcuts]]
+[[Git]]
+[[cmd]]
+
+[[Vim Shortcuts]] 

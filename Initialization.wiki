@@ -1,0 +1,2 @@
+
+•	Initialization, Assigned: assigning a value to a variable.

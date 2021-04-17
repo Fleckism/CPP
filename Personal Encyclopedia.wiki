@@ -3,3 +3,27 @@
 [[Enumerations]]
 [[Switch]]
 [[Array]]
+[[Variables]]:  Section of memory a physical segment of RAM
+[[Declaration]]:  Provides basic attribute of a symbol: its type and name
+[[Definition]]:  Provides all of the details of that symbol
+[[Arguments]]:  Value passed to a function or a template, in which it is accessed through a parameter.
+[[Function]]:  Is a group of statments that is executed when it is called.
+[[Initialization]]
+[[Declaration]]
+[[Expression]]:  A combination of numbers, symbols, or other variables that produce a result when evaluated
+[[Scripts]]:  Smallest unit of code made up of variables, expressions and operations.
+[[Hex]]:  0x Denotes hex
+[[Pointer]]:  Derefernce *
+[[Reference]]:  &
+[[Class]]:  class name::member of class  Month::Jan
+[[Overloading]]:  Is when you call or use the same thing withing the same code block
+[[Preprocessor directive]]:  #
+[[Protected]]
+
+[[Recursion]]:  Is when a statement calls itself
+[[Text]]:  Files contain data readable by humans
+[[Binary]]: Files contain data readable by computers strictly numeric
+
+[[Iteration]]:  Is when a loop repeatedly executes until the controlling condition becomes false
+[[Header]]:  Definitions are stored in header.
+•	Declaring: data_type and variable_name; for the first time this is a new name. this informs compiler the size to reserve for the variable in memory.

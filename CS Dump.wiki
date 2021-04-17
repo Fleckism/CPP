@@ -1,0 +1,4 @@
+= CS Dump=
+	* 1st digit hundreths compiled and run
+	* 2nd digit tens trying to compile
+	* 3rd digit ones not ready to compile

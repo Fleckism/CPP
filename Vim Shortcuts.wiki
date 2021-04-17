@@ -1,5 +1,12 @@
-
+= Copy, cut and paste =
+	v: select charters
+	V: select line
+	d: cuts
+	y: yanks
+	P: paste before
+	p: pase after
  === Movement ===
+	ctrl + w + w: moves to other open page
 	gg: moves to top of page
 	$:	Moves to end of line
 	0:	Moves to beginning of line

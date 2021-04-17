@@ -1,0 +1,6 @@
+
+•	Defining:  Is when something is declared and initialized at the same time.  OR JUST ANOTHER NAME FOR INITIALIZATION
+•	Declaring: data_type and variable_name; for the first time this is a new name. this informs compiler the size to reserve for the variable in memory.
+
+
+

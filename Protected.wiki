@@ -1,0 +1,9 @@
+Note: Observe the new keyword protected, which we have used in place of private. Recall that
+only the class itself and friends can access data members in the private area. This would prevent
+a derived class from accessing the data members. We do not want such a restriction with a class that is
+designed for the purposes of inheritance and the derivation of child classes. After all, what good is
+inheriting properties and methods you cannot access?. In order to achieve the same effect as
+private, but allow derived classes to access the data members, C++ provides the protected
+•	keyword. The result is that derived classes get access to such members, but outsiders are still restricted.
+•	: public Spaceship is colon syntax
+

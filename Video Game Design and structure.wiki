@@ -36,6 +36,7 @@ phrase.size()
 	* You can hide global values  global variables bad, global constants good
 	* An argument is what you use in a function call to pass a value to a function. A parameter is what you use in a function definition to accept values passed to a function.
 	* Avoid changing an argument variable.  Use the return value.
+	* Displaying something should be done with a constant reference no need to change anything if it's just a display
 
 
 == Figure out how to save game as an exe file. ==
@@ -62,3 +63,4 @@ phrase.size()
 [[Swap Demonstrating passing by reference to alter argument variables]]
 [[Inventory Display demonstrating constant reference]]
 [[Iventory Reference demonstrates returturning a reference]]
+[[Tic-Tac-Toe with AI has comments but didn't work]]
