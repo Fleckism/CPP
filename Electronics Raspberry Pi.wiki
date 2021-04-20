@@ -1,0 +1,19 @@
+= Electronics/ Pi =
+Series circuits:  Current (i) stays the same.
+   Voltage (v) is the sum of the voltage drops
+   Resistance(r) is the sum of all the individual resistance
+ 
+Parallel circuits:  Voltage (v) doesn't change.
+  Current (i)  see Ohm's law
+  Resistance(r) will always be the value of the smallest resistor.
+  
+Define voltage, current, and resistance.
+
+Voltage:  water =charge
+                 pressure=voltage
+                flow=current(amps
+
+Volts = force
+Ohms = resistance
+Watts = power
+Ampere's = current

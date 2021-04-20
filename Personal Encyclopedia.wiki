@@ -6,7 +6,7 @@
 [[Variables]]:  Section of memory a physical segment of RAM
 [[Declaration]]:  Provides basic attribute of a symbol: its type and name
 [[Definition]]:  Provides all of the details of that symbol
-[[Arguments]]:  Value passed to a function or a template, in which it is accessed through a parameter.
+[[Arguments]]:  function (arguments) Value passed to a function or a template, in which it is accessed through a parameter.
 [[Function]]:  Is a group of statments that is executed when it is called.
 [[Initialization]]
 [[Declaration]]
@@ -19,11 +19,12 @@
 [[Overloading]]:  Is when you call or use the same thing withing the same code block
 [[Preprocessor directive]]:  #
 [[Protected]]
-
+[[Member operators]]:  dot and arrow. Are used to reference individual members of classes, structures, and unions.  dot is for the actual object arrow is for pointers
 [[Recursion]]:  Is when a statement calls itself
 [[Text]]:  Files contain data readable by humans
 [[Binary]]: Files contain data readable by computers strictly numeric
-
+[[Dynamic initialization]]:  The value isn't initialized until runtime, not compile-time.
 [[Iteration]]:  Is when a loop repeatedly executes until the controlling condition becomes false
 [[Header]]:  Definitions are stored in header.
+[[References&]]:  Provides another name for a variable aka a nickname for that variable
 •	Declaring: data_type and variable_name; for the first time this is a new name. this informs compiler the size to reserve for the variable in memory.

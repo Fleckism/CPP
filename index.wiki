@@ -1,6 +1,12 @@
 = Index =  = Index = Index = Index = Index = Index =
 
 o	SLOW IS FAST, FAST IS SMOOTH
+o	Questions open the mind, statements close them.
+o	This too shall pass
+o	Your external voice is your child's internal voice
+o	A man with your insight and self knowledge can do what ever he wants
+o	SLOW IS FAST, FAST IS SMOOTH
+
 = Program design and implimentation =
 
 [[10 Steps to solving a programming problem]]
@@ -8,17 +14,16 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 = Brain Dump =
 
-	* Study hangman - you get to add words to the dictionary with a definition and the hints are your definitions
+	* Live off 30% of your pay, 6 months of reserve in bank 800 credit score.
+	* Analyze yourself and find patterns
+	* ******************  Add notes from reference chapter 6
 	* ADD ALL DUMPS TO THIS DUMP....
 	* Changre intelisens to only show things from document
-	* 1st digit hundreths compiled and run
-	* 2nd digit tens trying to compile
-	* 3rd digit ones not ready to compile
-	* PH: Physical health
-	* PS: Physical strength
-	* EE: Emotional Energy
-	* ME: Mental Enrgery focus
-	* SE: Spirtual Energy Why am I doing this?
+	* Meausre size of EMP protection items
+	* Input data, store data, retrieve data, display data
+
+
+[[Deep Dump]]
 
 == Video Game coding notes ==
 [[Video Game Design and structure|This is the new books working notes]]
@@ -26,6 +31,9 @@ o	SLOW IS FAST, FAST IS SMOOTH
 == Things not fully understood ==
 	* enumerations
 	* iterators
+
+== Video Game Design ==
+[[Game Design Documents]]
 
 = CPP reference =  
 
@@ -77,6 +85,9 @@ o	SLOW IS FAST, FAST IS SMOOTH
 [[<thread>]]
 [[<future>]]
 
+= Mathematics =
+[[Math for video game design]]
+
 = General CS =
 [[Basic Components of an operating system]]
 [[Binary and Hex]]
@@ -126,6 +137,7 @@ b) Lettered list 2
 [[How to ask questions]]
 
 == Shortcuts & Commands ==
+[[Linux]]
 [[VS Shortcuts]]
 [[Youtube Shortcuts]]
 [[Git]]

@@ -1,0 +1,20 @@
+= Deep Dump = 
+	* PH: Physical health
+	* PS: Physical strength
+	* EE: Emotional Energy
+	* ME: Mental Enrgery focus
+	* SE: Spirtual Energy Why am I doing this?
+	* Marsha May
+
+	* Study hangman - you get to add words to the dictionary with a definition and the hints are your definitions
+
+= Quotes =
+	* Information changes situations
+	* Distance dictates tactics
+
+
+
+= Crazy Burrito =
+[[Bags]]
+[[Ham Radio]]
+[[Electronics Raspberry Pi]]

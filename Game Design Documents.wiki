@@ -1,0 +1,15 @@
+= Game Design Documents =
+
+	* Target Audience
+	* Genre
+	* Core Gameplay:
+		* Core game mechanics:  What is the player doing in the game?
+		* Goals:  What is the player trying to accomplish
+		* Components:  What kinds of things are in the game?
+		* Controls:  How does the player control what happens in the game.
+		* User experience:  When the player starts to play the game, what steps do they follow?  
+			* What screens do they see.
+			* How are the levels in the game structed?
+			* How does the player move from one part of the game to the next.
+		* Visual Style: Look and feel of the game, where does the game take place.
+		* Characters and Storyline

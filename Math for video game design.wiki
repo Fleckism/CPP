@@ -1,0 +1,19 @@
+ = Math for video game design =
+ 
+ Set theory
+Mathematical functions
+Polynomials
+Basic Trigonometry
+Basic Trigonometry II
+Analytic Geometry I
+Vector Mathematics
+Matrix Mathematics
+matrix II
+Quaternion Mathematics
+Analytic II
+======= Basics Mathematics Refresher ====
+Real numbers
+Algebra
+Functions
+Geometry
+Trigonometry

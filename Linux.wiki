@@ -1,0 +1,35 @@
+= Linux =
+
+$ ls -lrt /dev/sd*    lists all sd*'s
+$ mount [device location] S/media
+Alt + L  layout launcher for Terminator
+super + r rotates windows for Terminator
+shift + ctrl + direction moves windows
+shift conrol z full screen terminator
+Shift + ctrl + o split horizontally
+shift + ctrl +  e split vertically
+ctr ++ zoom in
+ctr +-  zoom out
+shift + ctrl + w closes terminal
+
+alt + r resizes window
+
+Raspberry pi debian
+
+sudo reboot:  Reboots
+
+sudo apt update:  Updates the package index
+sudo apt upgrade: Upgrades the installed packages
+
+sudo raspi-config: Calls the raspberry PI config
+
+sudo shutdown
+df -kh: Shows SD card
+
+
+
+GNU nano
+CTRL + Y to save
+
+Ctrl + c	:To quit
+q 		:To quit

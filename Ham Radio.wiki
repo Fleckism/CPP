@@ -1,0 +1,84 @@
+= Ham Radio =
+  * Antenna connections SMA-Baofeng, BNC-Whistler
+  * VFO stands for Variable Frequency Oscillator (Frequency Mode) and MR stands for Memory Recall (Channel Mode)
+  * 7 TDR Dual watch mode
+
+FRS  Family Radio Service
+SEA09 Boat calling
+SEA16 Marine Distress
+SEA17 State and Local
+
+GMRS General Radio Service, License needed
+MURS Multi use, license needed
+
+DMR is good for small groups security?
+DMR or Dstar or Fusion
+
+2 meters 144 MHz (148), VHF  good for outdoor line of sight license needed to broadcast.
+
+70 cm 420MHz (450), UHF good for indoors passes through objects  license not needed.
+
+Higher the MHz lower the length.
+
+ 136- 174 MHz and 400-480 MHz baofeng UV-5R range
+
+The three things a repeater MAY require, A Transmit Frequency, A Receiver Frequency and a PL (Motorola) tone. 
+Usually, a Repeater will have an OFFSET of approximately .600MHz either UP(+) or DOWN (-) from the Receiver 
+Frequency so that the Repeater is transmitting as quickly as it receives the signal. 
+This prevents a DELAY in actual transmissions.
+
+Emergency channel For CB's in the US, channel 19 is 27.185 MHz, on the AM mode.
+471.58750  	WIK792  	RM 	118.8 PL 	Gloucstr PD 
+483.30000  	WPPD889  	RM 	162.2 PL 	Essex PD1 
+482.91250  	KA3874  	M 	123.0 PL 	Essex SHTRN
+
+483.06250  	WBN840  	RM 	203.5 PL 	Taunton PD 	Police Dispatch  	FM  	Law Dispatch 
+482.63750  	WPTR302  	RM 	203.5 PL 	Taunton PD2 	Police Secondary 
+
+146.52 is North America's help channel General call frequency
+
+20kHz audible sound waves.
+Amplitude modulation am. 
+Frequency modulation fm.
+Radio horizon.
+Decibels.
+Gain concentration of radio signals in a specific direction.
+
+
+Amplifier /antenna upgrade
+
+...VFO: variable frequency oscillator
+...SQL: squelch background noise
+...CTS: continuous tone squelch
+...DCS: digital continuous squelch
+...
+Family Radio Service (FRS)
+1 	462.5625 	Up to 2 watt 	Up to 5 watts
+2 	462.5875 	Up to 2 watt 	Up to 5 watts
+3 	462.6125 	Up to 2 watt 	Up to 5 watts
+4 	462.6375 	Up to 2 watt 	Up to 5 watts
+5 	462.6625 	Up to 2 watt 	Up to 5 watts
+6 	462.6875 	Up to 2 watt 	Up to 5 watts
+7 	462.7125 	Up to 2 watt 	Up to 5 watts
+8 	467.5625 	Up to 0.5 watt 	Up to 0.5 watt[6]
+9 	467.5875 	Up to 0.5 watt 	Up to 0.5 watt[6]
+10 	467.6125 	Up to 0.5 watt 	Up to 0.5 watt[6]
+11 	467.6375 	Up to 0.5 watt 	Up to 0.5 watt[6]
+12 	467.6625 	Up to 0.5 watt 	Up to 0.5 watt[6]
+13 	467.6875 	Up to 0.5 watt 	Up to 0.5 watt[6]
+14 	467.7125 	Up to 0.5 watt 	Up to 0.5 watt[6]
+15 	462.5500 	Up to 2 watt 	Up to 50 watts
+16 	462.5750 	Up to 2 watt 	Up to 50 watts
+17 	462.6000 	Up to 2 watt 	Up to 50 watts
+18 	462.6250 	Up to 2 watt 	Up to 50 watts
+19 	462.6500 	Up to 2 watt 	Up to 50 watts
+20 	462.6750 	Up to 2 watt 	Up to 50 watts
+21 	462.7000 	Up to 2 watt 	Up to 50 watts
+22 	462.7250 	Up to 2 watt 	Up to 50 watts 
+
+MURS Multi-use radio
+151-154MHz
+
+114 Bartlett police  159.210
+
+NFM Narrow FM

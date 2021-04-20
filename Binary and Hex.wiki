@@ -10,6 +10,17 @@
  8	1000
  9	1001
 
+Every zero in binary doubles the number in the decimal system.
+Learn up to 12 zero's in binary = 4096 in decimal
+6 zeros is a million = 64
+7 zeros is 10 million = 128
+8 zeros is 100 million = 256
+9 zeros is a billion =512
+10 zeros is 10 billion = 1024
+11 zeros is 100 billion = 2048
+12 zeros is a trillion = 4096
+
+
 = Hex =
 0
 1

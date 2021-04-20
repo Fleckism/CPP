@@ -1,0 +1,7 @@
+= Arguments =
+	*  By value when you want the computer to make a copy of the variable.  And you want the function to alter the 
+	*  -parameter in a function, but you don't want the actual arguement variable to be affected.
+* *Constant Reference*:  When you want to efficiently pass a value that you don't need to change.
+* *As a reference*: Pass a reference only when you want to alter the value of the argument variable. Howerever
+* -you should try to avoid change the argument variable whenever possible.
+* 
