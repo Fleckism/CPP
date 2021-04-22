@@ -15,6 +15,7 @@ o	SLOW IS FAST, FAST IS SMOOTH
 = Brain Dump =
 
 	* Live off 30% of your pay, 6 months of reserve in bank 800 credit score.
+	* == What is it called when you change a variables value.....
 	* Analyze yourself and find patterns
 	* ******************  Add notes from reference chapter 6
 	* ADD ALL DUMPS TO THIS DUMP....
@@ -25,7 +26,7 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 [[Deep Dump]]
 
-== Video Game coding notes ==
+== Video Game coding notes book ==
 [[Video Game Design and structure|This is the new books working notes]]
 
 == Things not fully understood ==
@@ -135,7 +136,7 @@ b) Lettered list 2
 
 [[wifi]]
 [[How to ask questions]]
-
+[[EDC]]
 == Shortcuts & Commands ==
 [[Linux]]
 [[VS Shortcuts]]

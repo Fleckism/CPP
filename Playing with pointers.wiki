@@ -1,0 +1,43 @@
+{{{cpp
+// Playihg with pointers
+
+#include <iostream>
+#include <string>
+
+using std::string;
+using std::cin;
+using std::cout;
+
+int main()
+{
+	// varaiable initialized
+	string me = "Me";
+	//pointer initialized to a reference
+	string* pMe = &me;// *pMe is pointing to a string object me
+	//so you don't initialize a reference?' 
+
+
+	cout << "reference location? "<< &me << "\n\n" ;
+	cout << " pMe lcation " << pMe << "\n\n";
+	// Dereferenced pointer *
+	cout << "*pMe actually prints the string you need to include the ****\n" << *pMe;
+	//   ==================*pMe means, the "object to which pMe points!"
+	// ==================== Use references instead of a const pointer
+
+	cout << "\n================================================\n";
+	cout << "pMe->size () is: " << pMe->size() << "\n";
+
+	cout << "Input something different into *pMe\n";
+	cin >> *pMe;
+
+	cout << "Input something into string me \n";
+	cin >> me;
+	cout << "\n\n" << me;
+
+	cout << "*pMe: " << *pMe;
+	cout << "pMe->size () is: " << pMe->size() << "\n";
+	cout << "\n\n";
+	cout << " me: " << me;
+	cout << "\n\n";
+	cout << "pMe->size () is: " << pMe->size() << "\n";
+}

@@ -7,8 +7,15 @@
 *	improve organization
 * 
 * 
-	* Avoid changing an "function(argument)" variable.  Send back new information through a return value.
+* Avoid changing an "function(argument)" variable.  Send back new information
+* -through a return value.
 	
 	
+* myFunction(type passByValue)  that the parameter argument will get a copy of the argument variable. 
+* -And not the value itself locally modified not globally.
+* myFunction(type& passByReference):  Passing by reference means what ever is done to the parameter will be 
+* -done to the argument variable
+* Passing by value changes the variable globally
+* Avoid changing an "function(argument)" variable.  Send back new information through a return value.
 
 

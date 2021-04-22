@@ -1,5 +1,6 @@
 = Reference =
 
+	* 
 	* prefix reference name wit "r" to remind that it is a reference
 	* myFunction(type passByValue)  that the parameter argument will get a copy of the argument variable. 
 	* -And not the value itself locally modified not globally.

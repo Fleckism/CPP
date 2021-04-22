@@ -1,0 +1,76 @@
+{{{cpp
+// Mad-Lib added in reference
+// Create a story based on user input
+
+#include <iostream>
+#include <string>
+
+using std::cin;
+using std::cout;
+using std::string;
+
+string askText(string prompt);
+string askNumber(string prompt);
+void tellStory(string rName, string noun, string number, string bodyPart,
+	string verb);
+
+int main()
+{
+	cout << "Welcome to Mad Lib. \n\n";
+	cout << "Answer the following questions to help create a new story.\n";
+
+	string name = askText("Please enter a name: ");
+	string& rName = name;
+	string noun = askText("Please enter a plural noun: ");
+	string number = askNumber("Please enter a number:");
+	string bodyPart = askText("Please enter a body part: ");
+	string verb = askText("Please enter a verb: ");
+
+	tellStory(rName, noun, number, bodyPart, verb);
+
+	return 0;
+}
+
+string askText(string prompt)
+{
+	string text;
+	cout << prompt;
+	cin >> text;
+	return text;
+}
+
+string askNumber(string prompt)
+{
+	string num;
+	cout << prompt;
+	cin >> num;
+	return num;
+}
+
+void tellStory(string rName, string noun, string number, string bodyPart, string verb)
+{
+	cout << "\nHere's your story:\n";
+	cout << "The famous explorer ";
+	cout << rName;
+	cout << " had nearly given up a life-long quest to find\n";
+	cout << "The Lost City of ";
+	cout << noun;
+	cout << " when one day, the ";
+	cout << noun;
+	cout << " found the explorer.\n";
+	cout << " surrounded by ";
+	cout << number;
+	cout << " " << noun;
+	cout << ", a tear came to ";
+	cout << rName << "'s";
+	cout << bodyPart << ".\n";
+	cout << "after all this time, the quest was finally over. ";
+	cout << "And then, the ";
+	cout << noun << "\n";
+	cout << " promptly devoured ";
+	cout << rName << ".";
+	cout << "The moral of the story?  Be careful what you ";
+	cout << verb;
+	cout << " for.";
+}
+

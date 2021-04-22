@@ -64,3 +64,10 @@ phrase.size()
 [[Inventory Display demonstrating constant reference]]
 [[Iventory Reference demonstrates returturning a reference]]
 [[Tic-Tac-Toe with AI has comments but didn't work]]
+[[Pointing demonstates pointers]]
+[[Mad-Lib with references!]]
+[[Pointer to string object]]
+[[Mad-Lib with pointers]]
+[[Playing with pointers]] Take notes aka comments and add them to glossary
+[[Array Passer]]
+[[Tic Tac Toe2]]
