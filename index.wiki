@@ -22,6 +22,7 @@ o	SLOW IS FAST, FAST IS SMOOTH
 	* Changre intelisens to only show things from document
 	* Meausre size of EMP protection items
 	* Input data, store data, retrieve data, display data
+	* Logic, structure
 
 
 [[Deep Dump]]

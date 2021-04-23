@@ -1,5 +1,6 @@
 = Encyclopedia =
 
+[[Classes]]:  Classes define types and create objects. 
 [[Enumerations]]
 [[Switch]]
 [[Array]]

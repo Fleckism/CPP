@@ -1,0 +1,40 @@
+{{{cpp
+// Simple Critter
+// demonstrates creating a new type
+
+#include <iostream>
+
+using std::cout;
+
+class Critter // class definition --defines a new type, Critter
+{
+public:
+	int m_Hunger; // data member, "Member qualities" notice m_
+	void Greet(); // member function prototype "Member ability notice uppercase "G"
+};
+
+// Greet() function is in the scope of Critter::
+void Critter::Greet() // member function definition
+{
+	cout << " Hi. I'm a critter.  My hunger level is " << m_Hunger << ".\n";
+}
+
+int main()
+{
+	// Instantiatd two objects from class Critter
+	Critter crit1;
+	Critter crit2;
+	// "." is the member selection operator
+	crit1.m_Hunger = 9;
+	cout << "crit1's hunger level is " << crit1.m_Hunger << ".\n";
+
+	crit2.m_Hunger = 3;
+	cout << "crit2's hunger level is " << crit2.m_Hunger << ".\n";
+
+	crit1.Greet();
+	crit2.Greet();
+
+	return 0;
+}
+
+
