@@ -4,3 +4,6 @@
 3. Programming:  Expressing in code.
 4. Testing
 5. What Object does the program attempt to model
+
+= Planning the game =
+1. Planning the game.  What is the core of the game?  The critter?

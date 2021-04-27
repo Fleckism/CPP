@@ -12,4 +12,4 @@
 			* How are the levels in the game structed?
 			* How does the player move from one part of the game to the next.
 		* Visual Style: Look and feel of the game, where does the game take place.
-		* Characters and Storyline
+		* Characters and [[Storyline]]

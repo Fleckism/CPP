@@ -1,0 +1,57 @@
+{{{cpp
+//Private Critter
+//Demonstrates setting member access levels
+
+#include <iostream>
+using std::cout;
+using std::endl;
+class Critter
+{
+public:  
+	Critter(int hunger = 0);
+	int GetHunger() const;
+	void SetHunger(int hunger);
+
+private:
+	int m_hunger;
+};
+
+Critter::Critter(int hunger) :
+	m_hunger(hunger)
+{
+	cout << "A new critter has been born!" << endl;
+}
+//Defining accessor member functions 
+//m_hunger is private Gethunger() allows it to be access outside it's class
+int Critter::GetHunger()const
+{
+	return m_hunger;
+}
+
+void Critter::SetHunger(int hunger)
+{
+	if (hunger < 0)
+	{
+		cout << "You can't set a critter's hunger to a negative number.\n\n";
+	}
+	else
+	{
+		m_hunger = hunger;
+	}
+}
+
+int main()
+{
+	Critter crit(5);
+	//cout <<crit.m_hunger; // illegal, m_Hunger is private!
+	cout << "Calling GetHunger(): " << crit.GetHunger() << "\n\n";
+
+	cout << "Calling SetHunger with with -1 \n";
+	crit.SetHunger(-1);
+
+	cout << "Calling SetHunger() with 9.\n";
+	crit.SetHunger(9);
+	cout << "Calling GetHunger(): " << crit.GetHunger() << "\n\n";
+
+	return 0;
+}

@@ -29,4 +29,5 @@
 [[Header]]:  Definitions are stored in header.
 [[References&]]:  Provides another name for a variable aka a nickname for that variable 
 [[Pointer]]:  A pointer is a variable that can contain a memory address.
+[[Static data member]]:  Is a single data member that exists for the entire class
 •	Declaring: data_type and variable_name; for the first time this is a new name. this informs compiler the size to reserve for the variable in memory.

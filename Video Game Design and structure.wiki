@@ -73,3 +73,6 @@ phrase.size()
 [[Tic Tac Toe2]]
 [[Simple criter demonstrates classes]]
 [[Constructor critter demonstrates constructors]]
+[[Private critter demonstrates setting member access levels]]
+[[Static critter demonstrates static member veriables and functions]]
+[[Critter caretaker]]
