@@ -1,0 +1,43 @@
+= Constructor =
+{{{cpp
+// Constructor Critter
+// Demonstrates constructors
+
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+class Critter
+{
+public:
+	//Data member
+	int m_Hunger;
+	// no return type and name must be the same as the class
+	Critter(int hunger = 0); //constructor prototype
+	void Greet();
+};
+
+Critter::Critter(int hunger) //constructor definition defined outside of class?
+{
+	cout << "A new critter has been born!" << endl;
+	m_Hunger = hunger;
+}
+
+//Member initializer
+Critter::Critter(int hunger = 0, int boredome = 0) :
+	m_Hunger(hunger),
+	m_Boredom(boredom)
+{}// empty constructor body
+void Critter::Greet()
+{
+	cout << "Hi. I'm a critter.  My hunger level is " << m_Hunger << ".\n\n";
+}
+
+int main()
+{
+	Critter crit(7);
+	crit.Greet();
+
+		return 0;
+}

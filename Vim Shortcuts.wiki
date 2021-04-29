@@ -31,7 +31,6 @@ Ctrl + ws - split window
 Ctrl + wv - split window vertically 
 ctrl + w moves between views
 
-
 == My vimrc copy ==
 [[Vimrc_Data]]
 

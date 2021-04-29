@@ -1,3 +1,4 @@
+
 {{{cpp
 // Taking Damage
 // Demonstrate function inlining

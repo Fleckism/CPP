@@ -1,3 +1,4 @@
+
 {{{cpp
 // High Scores
 // Demonstrates algorithms

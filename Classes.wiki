@@ -1,4 +1,104 @@
+= Classes =
+[[Constructor]]:  
+[[Static data member]]:
 {{{cpp
+
+// Simple Critter
+// demonstrates creating a new type
+
+#include <iostream>
+
+using std::cout;
+
+class Critter // class definition --defines a new type, Critter
+{
+public:
+	int m_Hunger; // data member, "Member qualities" notice m_
+	void Greet(); // member function prototype "Member ability notice uppercase "G"
+};
+
+// Greet() function is in the scope of Critter::
+void Critter::Greet() // member function definition
+{
+	cout << " Hi. I'm a critter.  My hunger level is " << m_Hunger << ".\n";
+}
+
+int main()
+{
+	// Instantiatd two objects from class Critter
+	Critter crit1;
+	Critter crit2;
+	// "." is the member selection operator
+	crit1.m_Hunger = 9;
+	cout << "crit1's hunger level is " << crit1.m_Hunger << ".\n";
+
+	crit2.m_Hunger = 3;
+	cout << "crit2's hunger level is " << crit2.m_Hunger << ".\n";
+
+	crit1.Greet();
+	crit2.Greet();
+
+	return 0;
+}
+
+{{{cpp
+//Private Critter
+//Demonstrates setting member access levels
+
+#include <iostream>
+using std::cout;
+using std::endl;
+class Critter
+{
+public:  
+	Critter(int hunger = 0);
+	int GetHunger() const;
+	void SetHunger(int hunger);
+
+private:
+	int m_hunger;
+};
+
+Critter::Critter(int hunger) :
+	m_hunger(hunger)
+{
+	cout << "A new critter has been born!" << endl;
+}
+//Defining accessor member functions 
+//m_hunger is private Gethunger() allows it to be access outside it's class
+int Critter::GetHunger()const
+{
+	return m_hunger;
+}
+
+void Critter::SetHunger(int hunger)
+{
+	if (hunger < 0)
+	{
+		cout << "You can't set a critter's hunger to a negative number.\n\n";
+	}
+	else
+	{
+		m_hunger = hunger;
+	}
+}
+
+int main()
+{
+	Critter crit(5);
+	//cout <<crit.m_hunger; // illegal, m_Hunger is private!
+	cout << "Calling GetHunger(): " << crit.GetHunger() << "\n\n";
+
+	cout << "Calling SetHunger with with -1 \n";
+	crit.SetHunger(-1);
+
+	cout << "Calling SetHunger() with 9.\n";
+	crit.SetHunger(9);
+	cout << "Calling GetHunger(): " << crit.GetHunger() << "\n\n";
+
+	return 0;
+}
+
 #include <iostream>
 class T {                   // A new type
 private:                    // Section accessible only to T's member functions

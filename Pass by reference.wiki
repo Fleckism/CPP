@@ -1,0 +1,50 @@
+
+{{{cpp
+// Swap
+// Demonstarting passing by reference to alter argument variables
+
+#include <iostream>
+
+using std::cout;
+
+void badSwap(int x, int y);
+// should this be r_goodSwap how to show that is is referenced...
+void goodSwap(int& x, int& y);
+
+int main()
+{
+	int myScore = 150;
+	int yourScore = 1000;
+	cout << "Orignal values \n";
+	cout << "myScore: " << myScore << "\n";
+	cout << "yourScore: " << yourScore << "\n\n";
+
+	cout << "Calling badSwap()\n";
+	badSwap(myScore, yourScore);
+	cout << "myScore: " << myScore << "\n";
+	cout << "yourScore: " << yourScore << "\n\n";
+
+	cout << "Calling goodSwap()\n";
+	goodSwap(myScore, yourScore);
+
+	cout << "myScore: " << myScore << "\n";
+	cout << "yourScore: " << yourScore << "\n";
+
+	return 0;
+}
+// No return statement but it does alter x and y locally inside the function
+void badSwap(int x, int y)
+{
+	int temp = x;
+	x = y;
+	y = temp;
+	// temp ceases to exsist after the functions end so teno will be garbage
+	return temp;
+}
+// No return statement but x and y are reference so it changes the value globally
+void goodSwap(int& x, int& y)
+{
+	int temp = x;
+	x = y;
+	y = temp;
+}
