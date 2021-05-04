@@ -1,0 +1,87 @@
+{{{cpp
+//Critter Farm
+//Demonstrates object containment
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using std::string;
+using std::vector;
+using std::cout;
+using std::endl;
+
+class Critter
+{
+public:
+	Critter(const string& name = "");
+	string GetName() const;
+
+private:
+	string m_Name;
+};
+
+Critter::Critter(const string& name) :
+	m_Name(name)
+{}
+
+//Where is this called
+inline string Critter::GetName() const
+{
+	return m_Name;
+}
+
+class Farm
+{
+public:
+	Farm(int spaces = 1);
+	void Add(const Critter& aCritter);
+	void RollCall() const;
+
+private:
+	vector<Critter> m_Critters;
+};
+
+Farm::Farm(int spaces)
+{
+	m_Critters.reserve(spaces);
+}
+
+void Farm::Add(const Critter& aCritter)
+{
+	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	//push_back adds a copy of the object to the vector use a vector of pointers!
+	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	m_Critters.push_back(aCritter);
+}
+
+//GetName is called here
+void Farm::RollCall()const
+{
+	for (vector<Critter>::const_iterator iter = m_Critters.begin();
+		iter != m_Critters.end(); ++iter)
+	{
+		cout << iter->GetName() << "here.\n";
+	}
+}
+
+int main()
+{
+	//Instantiate new critter object using Critter constructor crit is assigned to m_Name?
+	Critter crit("Poochie");
+	cout << "My critter's name is " << crit.GetName() << endl;
+	
+	cout << "\nCreating critter farm.\n";
+	Farm myFarm(3);
+
+	cout << "\nAdding three critters to the farm.\n";
+	myFarm.Add(Critter("Moe"));
+	myFarm.Add(Critter("Larry"));
+	myFarm.Add(Critter("Curly"));
+
+	cout << "\nCalling Roll...\n";
+	myFarm.RollCall();
+
+	return 0;
+
+}

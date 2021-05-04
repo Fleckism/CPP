@@ -23,6 +23,10 @@ o	SLOW IS FAST, FAST IS SMOOTH
 	* Meausre size of EMP protection items
 	* Input data, store data, retrieve data, display data
 	* Logic, structure
+	* Write a book just on cpp classes
+	* sdfd
+	* sfdf
+	* sfsadf
 
 
 [[Deep Dump]]
