@@ -1,0 +1,7 @@
+= Encyclopeida Fleck =
+
+	* List:  Sequence container that allow non-contiguous memory allocation.  Slow to traverse, insertion and delection are fast.
+	* Array:	Contiguous memory location.  Memory-efficient, fixed size
+	* Vector:	Sequence containers that utilize continuous storage location.  Use more memory than an array, Length can vary
+	* Structure:  A user defined data type, to group items of possibly different types into a single type.
+	* 

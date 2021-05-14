@@ -1,16 +1,24 @@
 = Encyclopedia =
 
+
+
 [[Algorithms]]: 
 [[Arguments]]:  What is passed into a function(argument).  
-[[Classes]]:  Classes define types and create objects. 
+
+[[Classes]]: ***Is a user defined data type. That has Attributes(variables) and methods(functions) Classes define types and create objects. 
+
 [[Enumerations]]:  Related and have a particular order. 
 [[Switch]]
 [[Array]]
+
 [[Variables]]:  Section of memory a physical segment of RAM
+
 [[Declaration]]:  Provides basic attribute of a symbol: its type and name
 [[Definition]]:  Provides all of the details of that symbol
 [[Arguments]]:  function (arguments) Value passed to a function or a template, in which it is accessed through a parameter.
+
 [[Function]]:  Is a group of statments that is executed when it is called.
+
 [[Initialization]]
 [[Declaration]]
 [[Expression]]:  A combination of numbers, symbols, or other variables that produce a result when evaluated
@@ -34,6 +42,10 @@
 [[Random numbers]]:
 [[Pointer]]:  A pointer is a variable that can contain a memory address.
 [[Static data member]]:  Is a single data member that exists for the entire class
+
+[[Statement]]:  a basic unit of a program controlling the exectuion flow in a function
+
+
 [[Vector]]
 [[Stack]]: Freed memory automatically local variables.
 [[Heap]]:  When the programmer are in charge of allocating and freeing this memory is called the heap or free store.

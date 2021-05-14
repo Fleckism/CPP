@@ -7,6 +7,8 @@ o	Your external voice is your child's internal voice
 o	A man with your insight and self knowledge can do what ever he wants
 o	SLOW IS FAST, FAST IS SMOOTH
 
+[[Encyclopedia Fleck]]
+
 = Program design and implimentation =
 
 [[10 Steps to solving a programming problem]]
@@ -24,10 +26,14 @@ o	SLOW IS FAST, FAST IS SMOOTH
 	* Input data, store data, retrieve data, display data
 	* Logic, structure
 	* Write a book just on cpp classes
-	* sdfd
+	* 
+	* transpiler
+	* 
 	* sfdf
 	* sfsadf
 
+=Video Game Strategy=
+[[Video Game Strategy Guide]]
 
 [[Deep Dump]]
 
