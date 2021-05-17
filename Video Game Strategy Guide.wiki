@@ -1,0 +1,47 @@
+= Video Game strategy Guide =
+
+- Tools:  Gimp for 2D, Blender for 3D, Audacity for sound effects
+- Marketing:  Fraps for windows cut together simple game play trailer with some music over it disable music with sound effects on.  Then for the trailer add different music and increase volume
+- Keep Metrics:  StatCounter or Google Analytics add button on game to link to site
+- UI:  If what your doing isn't contributing to improving the user experience of the final result, second guess the value of it.
+- 80/20:  80% of the users enjoyment comes from 20% of the work that you produce.
+- Math:  The screen is a 2D grid plane with (0,0) in the top left.  Is down positive?
+- IT ONLY COUNTS WHEN IT'S DONE
+- Setting up:  Development environment, writing core functionality, extending exsisting functionality
+- Jot down on page to devote mental energy to thinking through the steps
+	-	of what next to jot down
+	- Proper processes to advance what is on the page to the next step
+- Distributed cognition:  Distributes cognitive process to include mechanisms outside the mind
+- Scaffolding:  aka debug output, Include extral lines of code to help make visible the otherwise invisible calculations and the flow of the program. cout << "blah blah is happening"
+- Build level editor into the game and hide the functionality for the final release
+- ** Classes are used to organize data aka x/y pairs
+-  Use int's for whole things, and floats for everything else
+- Casting:  Converts data types
+- Hack Then Refactor
+	1. Just get it working ASAPP and out of your head and into code more like brainstorming than an engineering task
+	2. Label parts with comments:  keep it all on one page. It's a rough draft it can look like a rought draft
+	3. Cut into functions at comments.
+	4. Group functions into file/class: (This step slows down prototyping) Now is the time to make classes after you know which variables are global and which ones aren't
+
+- Steps in Programming
+	1. Minimal foundation.
+	2. Game Loop
+	3. Target Destination(game objective) keep things simple only a few members and functions to test functionality
+	4. Refactor into oject.  Figure out what functions and variables you have been using and make them into a class
+	5. Multiple game objects in array
+	6. Split classes if they are going to share attributes.
+	7. Add more details to class/struct
+	8. Add functionality
+	9. Write functionality for winning
+	10. Create AI
+	11. Add Non-essential things now.
+- Read Section 5 page 242
+- Level Design Concepts page 273
+	- Architect's design:  Environmental realism, strong sense of immersion. Map isn't designed for the game ex. Hitman, Rainbow Six
+	- Firemans's design:  Flow of action(Halo) shots yelling, action drawing the players attention.
+	- Curiosity lure:  Via exploration(searching for chests)  
+	- Reverse breadcrumb:  Breadcrumbs are scattered around making the player follow them back to the action.
+	- Arena traps:  The world has an overriding, malicious intelligence manipulating the players environment.
+	- Puzzle Based:  blah
+	- Disguised linear: Player can't get lost gameplay is based on action or platform/key puzzles.
+- Rapid Prototyping Methods page 278
