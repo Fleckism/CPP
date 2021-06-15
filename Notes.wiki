@@ -1,0 +1,8 @@
+= Notes =
+	* C++ programs consist of many separately developed parts, including functions, userdefined types,
+	class hierarchies and templates.
+	*  The key to managing this it to clearly define the interactions amount those parts.
+	*  The most important step is to distinguish between the interface to a part and its implementation.
+	* Interfaces are declarations.
+	* 
+	* 

@@ -1,0 +1,33 @@
+{{{cpp
+
+
+vector<enemyClass*> vectorOfEnemies;
+
+
+for (int i=0; i<numberOfEnemies; ++i)
+{
+enemyClass* someNewEnemyObjectPointer = new someNewEnemyObject();
+vectorOfEnemies.push_back(someNewEnemyObjectPointer);
+// a whole bunch of other stuff I expect
+}
+// make sure you deallocate the memory when you are done with your vector
+for (int i=0; i<vectorOfEnemies.size(); i++)
+{
+delete vectorOfEnemies[i];
+}
+
+
+vector <Tile*> vectorOfTiles;
+unsigned long int sizeOfBoard =0;
+while (( death== true) || (playerInput != 'q'))
+{
+	if (playerInput = 'n')
+	{
+		++sizeOfBoard;
+		Tile* tileObjectPointer = new tileObjectPointer();
+		vectorOfEmeies.push_back(tileObjectPointer);
+		
+		tileObjectPointer.Landscape();
+	}
+
+}

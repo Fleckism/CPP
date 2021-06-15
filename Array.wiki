@@ -1,9 +1,11 @@
 = Array=
 	* Syntax
 	* Why use one over the other
-	* 
+	* In declarations [] means array.
 
 	
 	
-{{{cpp // type array[values], can be multidimensional type array[values][values]
+{{{cpp 
+	char v[6]; //array of 6 characters
+// type array[values], can be multidimensional type array[values][values]
 	int array[8];

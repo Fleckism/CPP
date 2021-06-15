@@ -1,0 +1,52 @@
+{{{cpp
+// myGame has some of the loadscreen work done. Event handlers for keypress
+//????  How to iterate over enums, enums identifiers are visible only to the compiler 
+// [[parser]] direction choice
+
+class Tile //Class definitions -- defines a new type, 
+{
+public:
+	//Data memembers
+	//Vectors don't seem like the bestvector <string> describe_landscape{ "field", "hardwood","softwood","mixed","brush","cliff" };
+	const string m_landscape[6] = { "field", "hardwood","softwood","mixed","brush","cliff" };
+	//landscapes are ints can be totally random
+	enum m_water{ brook,lake,creek,swamp,puddle,none };
+	
+	//_None_ has to be greater than all others, _brook_ can't be smaller than 4 tiles and is passable, _lake_ can't be smaller than 10 squares and cannot be passed
+	//_creek_ can't be smaller than 5 and is passable with penalities, _swamp_ can't be smaller than 5 great penalities, _puddles_ only present while raining or withing 10 tiles.
+	enum m_animals{ squerrel,rabbit,deer};
+	enum m_setItems{ trap,fire,shelter};
+	//Function declaration  ====================== Add to VIM ===============
+	void Landscape ();
+
+	void Test();
+
+};
+
+
+void Tile::Test()
+{
+	cout << "Test works!";
+}
+
+
+
+int main()
+{
+	Tile test;
+	//srand(static_cast<unsigned int>(time(0)));  //randomseed
+
+	test.Landscape();
+	//Instantiated field from tile class
+	//Tile field;
+
+	return 0;
+}
+
+ void Tile::Landscape()
+{
+	int randomNumber = rand();
+	int landscapeRandom = (randomNumber % 6) + 1; //Random number between 1 and 6
+	string landscape = m_landscape[landscapeRandom];
+	cout << landscape;
+}

@@ -1,0 +1,10 @@
+= Function Examples =
+
+{{{cpp
+string dogs = "poodle";
+//function declarations
+void FunctionName();  // void is the return type FunctionName is the Name () menas no arguments
+string FunctionName(dogs); // string is the return type, FunctionName is the name, string is the argument
+double FunctionName(int);  //double is the return type, FunctionName is the name int is the arugment
+//The return type defines a set of possible balues and a set of operations for an object.
+

@@ -1,0 +1,9 @@
+
+
+- motor controller L298N 
+	- One switch for motors
+	- One switch for pie
+- Led for pie being on
+- Led for pie fully booted
+
+

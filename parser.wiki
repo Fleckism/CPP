@@ -1,0 +1,28 @@
+{{{cpp
+
+void action()
+{
+	while(true) {
+	cout << "enter action:\n"; // request action
+	string act;
+	cin >> act;  //reads characters into a string
+	Point delta {0,0}; //Point holds an {x,y} pair
+	
+	for (char ch :act) {
+		switch (ch) {
+		case 'u': //up
+		case 'n': //north
+			++delta.y;
+			break;
+		case 'r': //right
+		case 'e': //east
+			++delta.x;
+			//...more actions...
+		default:
+			cout << "I freeze!\n";
+			}
+			move(current+delta*scale);
+			update_display();
+			}
+		}
+	}	

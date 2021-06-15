@@ -1,4 +1,5 @@
 = Switch = 
+	* Tests a value against a set of constants.  The constants are called case labels.
 	* Is a selection statement
 	* A switch is based on comparison value against several constants
 	* Generates optimized code for comparing against a set of constraints.
@@ -19,7 +20,7 @@ int main()
 	cout << "\nEasy = 1\nMedium = 2 \nHard = 3\n\n";
 	cin >> i;
 
-	switch (i)
+	switch (i) //i is the control statement
 	{
 	case Easy:
 		cout << "\nYou picked Easy" << endl;

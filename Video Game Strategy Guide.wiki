@@ -45,3 +45,5 @@
 	- Puzzle Based:  blah
 	- Disguised linear: Player can't get lost gameplay is based on action or platform/key puzzles.
 - Rapid Prototyping Methods page 278
+- Intellectual property and hobby game development page
+- GDC Game Development Conference page 396 in Cali.

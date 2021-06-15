@@ -2,13 +2,13 @@
 
 o	SLOW IS FAST, FAST IS SMOOTH
 o	Questions open the mind, statements close them.
-o	This too shall pass
 o	Your external voice is your child's internal voice
 o	A man with your insight and self knowledge can do what ever he wants
 o	SLOW IS FAST, FAST IS SMOOTH
-
+[[Raspberry Pi Robot]]
+[[myGame_OnePage]]
 [[Encyclopedia Fleck]]
-
+[[cppreference.com]]
 = Program design and implimentation =
 
 [[10 Steps to solving a programming problem]]
@@ -37,7 +37,8 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 [[Deep Dump]]
 
-== Video Game coding notes book ==
+== Video Game coding notes book ==  
+== Code Examples below ==
 [[Video Game Design and structure|This is the new books working notes]]
 
 == Things not fully understood ==

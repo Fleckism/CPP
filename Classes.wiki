@@ -1,6 +1,8 @@
 = Classes =
+[[Adding class to vector]]  -- Look into this
 [[Constructor]]:  
 [[Static data member]]:
+	- To add definitions to class functions you need to use the access modifier?  ::
 {{{cpp
 
 // Simple Critter

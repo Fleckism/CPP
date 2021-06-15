@@ -11,7 +11,7 @@ using std::endl;
 int main()
 {
 	const int MAX_ITEMS = 10; // Define a const for the number of elements in an array
-	string inventory[MAX_ITEMS];
+	string inventory[MAX_ITEMS]; //[denotes an array]
 
 	int numItems = 0;
 	inventory[numItems++] = "sword"; // Subscripting operator to add items.. Never seen this before.

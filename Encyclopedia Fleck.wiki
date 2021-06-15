@@ -1,7 +1,32 @@
 = Encyclopeida Fleck =
-
+[[Notes]]
 	* List:  Sequence container that allow non-contiguous memory allocation.  Slow to traverse, insertion and delection are fast.
-	* Array:	Contiguous memory location.  Memory-efficient, fixed size
+	* [[Array]]:	Contiguous memory location.  Memory-efficient, fixed size 
+	* [[Assignment]]:  Assign a memory location a value.
+	* [[Classes]]: ***Is a user defined data type. That has Attributes(variables) and methods(functions) Classes define types and create objects. 
+	* 
+	* Constants: Used primarily to specify interfaces so that data can be passed to functions using pointers and references. "Keyword const:"
+	* [[Declaration]]:  Specifies all that's needed to use a function or type.
+	* [[Enumerations]]
+	* [[Function]]
+	* [[Structures]]:  
+	* [[Initialization]]:  Makes an object in memory.
 	* Vector:	Sequence containers that utilize continuous storage location.  Use more memory than an array, Length can vary
 	* Structure:  A user defined data type, to group items of possibly different types into a single type.
+	* [[Switch]] 
+	* #include:  Instructs the compiler to include the "declarations" of what ever library follows <>
+	*  << "put to"
+	* [[Function examples]]
+	* [[Initialization]]:  Befor an object can be used it must be initialized.  " = " or "{}"
 	* 
+	
+	
+	- .to access struct memembers and -> to access memebers through a pointer
+	- Classes are full of declarations with the definitions else where
+	- Separate compilation:  Can be used to minimize compilation times.
+	- Declarations are placed in there own header files. Declarations are interfaces.
+	- ********** understand function returns ***********************
+	- abc
+	- abc
+	- 
+	- [[Test]]

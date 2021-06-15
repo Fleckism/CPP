@@ -1,5 +1,5 @@
 = Enumerations =
-	* Set of unsigned int constants
+	* Set of unsigned int constants, the computer will print the number aka int not the string.
 	* Related and have a particular order
 	*		DECLARATION {{{cpp enum difficulty {NOVICE,EASY,NORMAL,HARD,UNBEATABLE};}}}
 	Is a set of unsigned int constants
@@ -11,6 +11,20 @@
 using std::cin;
 using std::cout;
 using std::endl;
+
+
+//Declaration
+enum class EnumName { Value1, Value2, ... ValueN};
+
+//Initialisation
+enumName ObjectName = EnumName::Value;
+
+//Example declaration
+enum class Color{Red, Green, Blue};
+
+//Example initialisation
+Color col = Color::Red;
+
 
 int main()
 {

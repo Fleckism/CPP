@@ -4,7 +4,7 @@
 [[Overloading]]
 [[Inlining]]
 •	Function signature is function name and parameter list
-
+*  ===========  Functions can not return local variables!  The variable disappears after the function ends ===
 *  Should only do one task
 *  Overloading means to redefine
 * Is a named sequence of statements
