@@ -7,12 +7,15 @@
 	p: pase after
  === Movement ===
 	ctrl + w + w: moves to other open page
+	ctrl + R undo's an undo
 	gg: moves to top of page
+	G:  Moves to bottom of page
 	$:	Moves to end of line
 	0:	Moves to beginning of line
 	e:	Moves to end of word
 	w:	Moves forward a word to the beginning of a word
 	9G:	Jumps to line 9.
+	
 	
 https://vim.fandom.com/wiki/Moving_around
 

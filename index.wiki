@@ -5,13 +5,16 @@ o	Questions open the mind, statements close them.
 o	Your external voice is your child's internal voice
 o	A man with your insight and self knowledge can do what ever he wants
 o	SLOW IS FAST, FAST IS SMOOTH
+
+= Code Examples to borrow from =
+[[Code Examples]]					[[External Libraries]]
+= Code Examples to borrow from =
+
 [[Raspberry Pi Robot]]
 [[myGame_OnePage]]
 [[Encyclopedia Fleck]]
-[[cppreference.com]]
-= Program design and implimentation =
 
-[[10 Steps to solving a programming problem]]
+
 [[Programing is understanding]]
 
 = Brain Dump =
@@ -39,7 +42,7 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 == Video Game coding notes book ==  
 == Code Examples below ==
-[[Video Game Design and structure|This is the new books working notes]]
+[[Code Examples|This is the new books working notes]]
 
 == Things not fully understood ==
 	* enumerations
@@ -143,6 +146,9 @@ b) Lettered list 2
 ``*bold*``
 ``_italic_``
 
+[[10 Steps to solving a programming problem]]
+[[cppreference.com]]
+= Program design and implimentation =
 [[Limitless]]
 
 
@@ -155,5 +161,5 @@ b) Lettered list 2
 [[Youtube Shortcuts]]
 [[Git]]
 [[cmd]]
-
+[[VimWiki]]
 [[Vim Shortcuts]] 

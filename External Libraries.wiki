@@ -1,0 +1,9 @@
+1. Click on Project properties
+	2. Click on VC++ Directories
+		3. INclude Directories
+		4. Library Directories
+			5. Click drop down menu on both and it's straight forward if file explorer doesn't open click on ...
+	6. Click on Linker -> General -> Additional library Directories
+		7. Input -> Additional Dependencies add name of .lib file. highlight line and click drop down menu add edit 
+			
+			

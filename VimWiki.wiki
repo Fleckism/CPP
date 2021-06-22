@@ -1,0 +1,10 @@
+= VimWiki =
+<Shift-Enter>Split and follow link
+<Shift -Enter> Split and follow/create wiki link
+<Ctrl-Enter> Vertical split follow and create wiki link
+<Backspace>  Go back to parent(previous) wiki link
+<Tab>  Find next wikilink.
+<Shift-Tab> Find previous wikilink
+<Leader>wd	: Deletes the wiki you are in
+<Leader>wr	: Renames the file you are in
+
