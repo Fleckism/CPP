@@ -1,15 +1,18 @@
 = Index =  = Index = Index = Index = Index = Index =
 
+REMOVE ANNOYING PEEP FROM VIM**********************************
 o	SLOW IS FAST, FAST IS SMOOTH
 o	Questions open the mind, statements close them.
 o	Your external voice is your child's internal voice
 o	A man with your insight and self knowledge can do what ever he wants
 o	SLOW IS FAST, FAST IS SMOOTH
 
+= Yahboom G1 Tank =
+[[Tank]]
 = Code Examples to borrow from =
 [[Code Examples]]					[[External Libraries]]
 = Code Examples to borrow from =
-
+[[ConsoleRPG]]
 [[Raspberry Pi Robot]]
 [[myGame_OnePage]]
 [[Encyclopedia Fleck]]
@@ -151,6 +154,7 @@ b) Lettered list 2
 = Program design and implimentation =
 [[Limitless]]
 
+[[Magic]]
 
 [[wifi]]
 [[How to ask questions]]
@@ -163,3 +167,4 @@ b) Lettered list 2
 [[cmd]]
 [[VimWiki]]
 [[Vim Shortcuts]] 
+[[Emergency]]

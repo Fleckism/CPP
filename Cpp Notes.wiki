@@ -15,7 +15,6 @@ General [[Info]]
 •	User-defined type.  Type means data type, aka variable types
 •	A shallow copy copies from source to dest dest.mData = source.mData
 •	variables declared with const cannot be changed.
-•	Definition in header
 •	[[Implementation]] in source file
 •	** is a pointer to a pointer
 •	

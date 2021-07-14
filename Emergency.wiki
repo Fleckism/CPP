@@ -1,0 +1,14 @@
+
+removed below from $sudo vim/etc/wpa_supplicant/wpa_supplicant.conf
+
+psk="... blah blah, is not in the book mayb that need to be remoed from file
+
+network={
+	ssid="Yahboom1_5G"
+	#psk="yahboom890729"
+	psk=048a31d66f35f972f887d4d8cc9d6alcafdaefcb28d0120feea3ec244f550a25
+	}
+	
+	
+	
+	psk=048a31d66f35f972f887d4d8cc9d6aefcb28d0120feea3ec244f550a25

@@ -1,0 +1,29 @@
+
+= Notes=
+- Bluetooth light is solid when connected
+- SSH is for wireless file transfer
+- $hostname -I gives pi's IP which was 192.168.1.27 for VNC
+- ctrl + c:  stops ping and or ctrl + z?
+- What does BCM stand for $gpio readall
+
+
+= PiTank Commands =
+- sudo shutdown -h now
+- sud raspi-config
+= Micro SD =
+- format as FAT32
+- If multiple partians show up use disk manager to delete partian
+- 
+
+= Putty Logging into Yahboom_Tank =
+- wifi password 12345678
+- tank username: pi
+- tank password: yahboom
+- IP address: 192.168.50.1
+
+= SSH =
+- save file as "ssh" with no extension check properties  to confirm Type of file is set to "file"
+
+= Setting Up =
+[[VNC]]  $hostname -I
+[[VimInstall]]  $sudo apt install vim

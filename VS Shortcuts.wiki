@@ -1,2 +1,3 @@
 = Visual Studio Shortcuts=
 * ctrl + tab : Switches tabs
+* ctrl + shift + l : Deletes line

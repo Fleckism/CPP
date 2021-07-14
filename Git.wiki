@@ -13,6 +13,9 @@ From the command line
 
 Dir
 c:\dev\Hazel>git clone https://github.com/blah/blah/blah the address
+****************************************************
+Try using this address
+https://github.com/Headturna/ConsoleRPG
 
 * commits is how you access old pull requests(?)
 * He normally uses Added

@@ -1,0 +1,18 @@
+
+
+		-Are desctructors still used?
+		
+this-> member-identifier    this pointer 
+
+-> Is a member access operator(to a pointer?) -> pointer to member
+
+Item is going to be included in character -> game
+** Is a pointer to a pointer
+What do you call a plane bagel?  Flying
+
+* When making videos explain color conventions
+* When making videos don't say this is going to be confusing if your new to programming.. NO Shit!
+* Look into old growth forests
+* Tap code
+* ground penetrating radar detection looking for rocks under the surface
+* 
