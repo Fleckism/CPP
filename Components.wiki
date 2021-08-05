@@ -1,0 +1,16 @@
+= Components =
+[[Chips]]
+- Analog sensors cannot connect directly to the RPi. An _*ADC*_(Analog to digital converter) is needed
+- 
+- LDR Sensor module:  An analog input sensor, dark high resistance(1 M ohm, brigh low resistance.
+- ADC:   Analog to digital converter.
+- PWM:  Pulse width modulation with softPWM.  Used to control the speed of a motor or LED output.
+- 1 is closed, 0 is open.
+- L298N IC consists of two H-bridges
+- 16 x 2 LCD or with I2C LCD module
+- Ultra sonic measures out t 180 cm(70":w
+
+
+
+
+- MCP3008 8 channel 10 bit ADC

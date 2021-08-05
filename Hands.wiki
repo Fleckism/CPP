@@ -1,0 +1,18 @@
+= Hands =
+[[Electrical]]
+[[Components]]
+= Commands =
+- $gpio readall
+- $sudo raspi-config
+
+#Definition of motor pin
+
+IN1 = 20
+IN2 = 21
+IN3 = 19
+IN4 = 26
+ENA = 16
+ENB = 13
+
+not actual code below i think it is Python 
+GPIO.output (in1, gpio.high)

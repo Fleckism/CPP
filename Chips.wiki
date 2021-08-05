@@ -1,0 +1,20 @@
+= Chips =
+
+SN74HC03N:  NAND gate 4 eleemnt 2-in CMOS 14 pin PDIP tube (row30)
+TLC555CP:  Standard timer single 0 c 70 c 8 pin PDIP Tube (row14)
+LM358N:    IC LM358N Low power dual operational Amplifier 32v 530mW (in yellow tube)
+SN74HC08N:  AND Gate 4 element 2-in CMOS 14 pin PDIP tube (in clear tube)
+SN74HC595N:  Shift Register Single 8 bit serial to serial/Parallel 16 pin PDIP (row22)
+LM358P:   Op Amp Dual GP +/- 16V/32V 8-P PDIP tube (row30)
+
+= To Purchase =
+
+AdaFruit
+L293D:  Dual H Bridge motor driver for DC or Steppers -600mA
+
+= Optocoupler =
+
+NEC 2501
+LDA110:  Opto AC-in 1 ch transistor with base dc out 6 pin PDIP tube(clear tube)
+CD74AC05E:  HEX inverter with open collector outputs
+

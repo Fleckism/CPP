@@ -7,8 +7,9 @@ o	Your external voice is your child's internal voice
 o	A man with your insight and self knowledge can do what ever he wants
 o	SLOW IS FAST, FAST IS SMOOTH
 
-= Yahboom G1 Tank =
-[[Tank]]
+= Hands on Robotics =
+[[Hands]] - PiTank pins are in this as well
+[[RasPi]] Use Linux sysfs to manually control Bash scripts for short scripts
 = Code Examples to borrow from =
 [[Code Examples]]					[[External Libraries]]
 = Code Examples to borrow from =
@@ -53,7 +54,7 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 == Video Game Design ==
 [[Game Design Documents]]
-
+[[Console RPG Design Documents]]
 = CPP reference =  
 
 [[Personal Encyclopedia]]
@@ -155,7 +156,7 @@ b) Lettered list 2
 [[Limitless]]
 
 [[Magic]]
-
+[[Tank]]
 [[wifi]]
 [[How to ask questions]]
 [[EDC]]
@@ -165,6 +166,7 @@ b) Lettered list 2
 [[Youtube Shortcuts]]
 [[Git]]
 [[cmd]]
+[[QT]]
 [[VimWiki]]
 [[Vim Shortcuts]] 
 [[Emergency]]

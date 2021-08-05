@@ -1,0 +1,11 @@
+= RasPi =
+- Use Linux sysfs to manually control the gpio
+	- $cd /sys/class/gpio
+	- $echo "pin #" > export  // enables gpio
+	- $cd gpio"pin#" e.g. cd gpio4
+	- $echo out > direction
+	- $echo 1 > value
+	- $echo 0 > value
+	- cat direcion
+	- cat value
+	- cat "pin#" > unexport

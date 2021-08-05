@@ -1,0 +1,7 @@
+= Console RPG Design Document =
+
+- What is missing from the current revesion.
+	- Add level's of complexity, soon as the game starts you can encounter multiple enimies and bosses.
+	- Add procedural generation for the map, instead of a store randomly opening up
+	- Add a GUI
+	- Seperate game options
