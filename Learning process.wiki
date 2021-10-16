@@ -1,0 +1,20 @@
+  = Learning process =
+   
+   - Programming Principles
+   -   The principle of Abstraction
+   -   The principle of Correspondence
+   -   The Principle of Data type completeness
+   
+   Learn how to "Find, choose, and adapt the information we need.
+   Think outside the box, hackers don't follow conventions
+  
+  Optional Exercise Outside the box Seeing outside the limitations "placed on us".
+  Use patterns that we haven't been conditioned to use or use them in unconventional ways.
+  
+  ========================================================================================
+  A problem is an emotional state.  Without emotions, it is just a situation
+  
+  Learning depends on our emotional state.
+  
+  Know your Goal
+  Optional Exercise Know your goal Write down the goal I want to achieve in this course

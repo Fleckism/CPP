@@ -1,5 +1,11 @@
 = Linux =
 
+$uname -a:  Lists OS
+
+We use the rm command to delete a directory that is not empty. The syntax is:
+rm -rf dir-name
+rm -rf /path/to/dir/name
+
 $ ls -lrt /dev/sd*    lists all sd*'s
 $ mount [device location] S/media
 Alt + L  layout launcher for Terminator

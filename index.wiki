@@ -7,6 +7,11 @@ o	Your external voice is your child's internal voice
 o	A man with your insight and self knowledge can do what ever he wants
 o	SLOW IS FAST, FAST IS SMOOTH
 
+
+= Cyber Security =
+[[Learning process]]
+
+
 = Hands on Robotics =
 [[Hands]] - PiTank pins are in this as well
 [[RasPi]] Use Linux sysfs to manually control Bash scripts for short scripts
