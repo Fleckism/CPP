@@ -9,8 +9,11 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 
 = Cyber Security =
+[[tryhackme]]
 [[Learning process]]
 
+
+[[Acronyms]]
 
 = Hands on Robotics =
 [[Hands]] - PiTank pins are in this as well

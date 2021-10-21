@@ -1,0 +1,57 @@
+= tryhackme =
+
+= Learning Cyber Security =
+
+- Type of web requestrs
+- 	GET,POST,DELETE
+- Basic _segmentation_ flaw
+= What is Networking =
+- Every device has two means of ID
+- 	IP Adress (Internet Protocol) IPv4 Made up of 4 Octets 192.168.1.1 Like a person name
+- 	Media Access Control (MAC) Address Like a person fingerprint assigned at the factory it was built 
+	- The MAC is a 12 character hexadecimal number
+	- The first six represent the company that made the network interface, the last 6 are unique
+************************************************************************************************
+- *Ping* uses ICMP(Internet Control Message Protocol) packets to determine the performance of a connection between devices.
+= Intro into LAN Local Area Network =
+- Star Topology
+	- Devices individually connected via a central networking device such as a switch or a hub
+	- Any information sent via central device
+	- More expensive than other topologies
+	- More scalable
+	- More maintenance
+	- Robust centralised hardware
+- Bus Topology
+	- Like leaves on a trea each device (leave) is attached to a backbone cable (branch)
+	- Prone to bottlenecked
+	- Difficult to troubleshoot
+	- Little redunancy in place in case of failures
+	- can't handle large amounts of data
+- Ring Topology aka token
+	- Troubleshooting is easy
+
+- What is a switch
+	- Dedicated devices that are designed to aggregate multiple other devices.
+	- More efficient than hubs/repeaters
+	- Keep track of what device is connect to which port.
+	- Send packets to intended target
+- What is a router
+	- Connects networks and pass data between them.
+	- Routing is the process of data travelling across networks.
+	- 
+	
+= Subnetting =
+- Is when you split up networks into smaller, miniature networks within itself
+- subnet mask is of octets just like an IP address, 4 bytes(32bits), ranging from 0 to 255
+	- Subnets use IP address
+		- Identify the network address:  Start of network ends with 0
+		- Identify the host address:  Identify a device on the subnet first 3 octets are the same
+		- Identify the default gateway: Special address that is capable of sending information to
+another network, last octet is different .254
+- Benefits:  Efficiency, security, full control
+
+
+
+ = Look up =
+ 
+ -Enumerate machines and networks

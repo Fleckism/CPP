@@ -16,6 +16,18 @@
 	w:	Moves forward a word to the beginning of a word
 	9G:	Jumps to line 9.
 	
+	z + enter: moves page up
+	z + . :moves page to middle
+	z + - :moves page to bottle
+	
+	ctrl +
+	U p
+	D down
+	f forward
+	b back
+	H HOme
+	M Middle
+	L last
 	
 https://vim.fandom.com/wiki/Moving_around
 
