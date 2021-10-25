@@ -9,6 +9,8 @@
 - Every device has two means of ID
 - 	IP Adress (Internet Protocol) IPv4 Made up of 4 Octets 192.168.1.1 Like a person name
 - 	Media Access Control (MAC) Address Like a person fingerprint assigned at the factory it was built 
+ 	- The IP is used as a logical identifier
+	- The MAC is used as a physical identifier
 	- The MAC is a 12 character hexadecimal number
 	- The first six represent the company that made the network interface, the last 6 are unique
 ************************************************************************************************
@@ -50,8 +52,21 @@
 another network, last octet is different .254
 - Benefits:  Efficiency, security, full control
 
+= ARP Protocol =
+- Address Resoluton Protocol
+- ARP allows devices to identify themselves on a network
+- Allows devices to associate MAC with IP address on a network
+- 	Each device on a network keeps a log of the MAC address associated with other devices
+-   ARP Request
+- 	ARP Reply
 
+= DHCP Protocol =
+- Dynamic Host Configuration Protocol server
+- DHCP Discover: To see if any DHCP servers are on the network
+- DHCP Offer:  DHCP server replies back with an IP address the device could use
+- DHCP Request:  The device replies confirming it wants the offered IP Address
+- DHCP ACK:  The DHCP server sends a reply acknowledging it has been completed.
 
  = Look up =
  
- -Enumerate machines and networks
+-Enumerate machines and networks
