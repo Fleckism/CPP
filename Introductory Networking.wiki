@@ -1,0 +1,16 @@
+= Introductory Networking =
+
+- OSI (Open Systems Interconnection) Model: Used to demonstrate networking(TCP/IP model)
+1. Application
+2. Presentation
+3. Session
+4. Transport
+5. Network
+6. Data Link
+7. Physical
+
+- Layer 7 Application:  Provides an interface, transmits data to the presentation layer
+- Layer 6 Presentation:  Translates data from the application to a standardised format, handles
+encryption, compression, or other transformations to the data.  When complete passed to the session
+- Layer 5 Session:  
+Mnemonics:  Anxious Pale Shakespeare Treated Nervous Drunks Patiently

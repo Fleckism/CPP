@@ -1,0 +1,12 @@
+ = Add points below to documentation =
+ 
+ -   current emotional state (calm, nervous, worried, happy, depressed, relaxed, etc.)
+ -   the previous flow of the day so far (also with one word)
+ -   place of work
+ -   working hours
+ -   duration
+ -   sleep
+ -   inserted breaks
+ -   duration of the breaks
+ -   and anything else we can think of.
+

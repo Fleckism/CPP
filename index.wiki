@@ -9,9 +9,8 @@ o	SLOW IS FAST, FAST IS SMOOTH
 
 
 = Cyber Security =
-[[tryhackme]]
 [[Learning process]]
-
+[[Try Hack Me]]
 
 [[Acronyms]]
 
